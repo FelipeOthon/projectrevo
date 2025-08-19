@@ -1,0 +1,15 @@
+﻿Gatekeeper Valentina:
+
+Ну здравствуй. Я Привратник Валентина, прибыла из Башни Слоновой Кости (Ivory Tower), что находится к северу от города. Некоторые люди полагают, что маги Белой Башни планируют захватить мир, но я считаю это полнейшим бредом. Но, к счастью, есть и те, кто полагает, что однажды Белая Башня спасет мир. А что думаешь ты по этому поводу?
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"Я хочу бесплатно попасть на Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"Я хочу бесплатно попасть в Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Квест]

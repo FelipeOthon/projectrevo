@@ -1,0 +1,153 @@
+<list>
+	<zone id="500024" name="[giran_harbor_no_trade]" type="dummy" >
+		<set name="enabled" val="false" />
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="48148 186514" />
+			<coords loc="48304 186816" />
+			<coords loc="47681 187144" />
+			<coords loc="47506 186839" />
+		</shape>
+	</zone>
+	<zone id="700001" name="[giran_non_trade]" type="dummy" >
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="85792 147072" />
+			<coords loc="83605 147080" />
+			<coords loc="83560 147537" />
+			<coords loc="83440 147472" />
+			<coords loc="80780 147474" />
+			<coords loc="80692 147543" />
+			<coords loc="80691 149704" />
+			<coords loc="80786 149774" />
+			<coords loc="86445 149877" />
+		</shape>
+	</zone>
+	<zone id="700003" name="[dion_non_trade]" type="dummy" >
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="17454 141289" />
+			<coords loc="14212 141173" />
+			<coords loc="13653 141785" />
+			<coords loc="13683 143126" />
+			<coords loc="14384 144206" />
+			<coords loc="15657 144696" />
+			<coords loc="16331 144682" />
+			<coords loc="17050 144403" />
+			<coords loc="17036 144066" />
+			<coords loc="17456 143264" />
+			<coords loc="18320 142733" />
+		</shape>
+	</zone>
+	<zone id="702510" name="[Anais]" type="dummy" >
+		<shape>
+			<coords loc="112536 -77928 -100 200" />
+			<coords loc="112216 -77880 -100 200" />
+			<coords loc="111800 -77512 -100 200" />
+			<coords loc="111416 -77080 -100 200" />
+			<coords loc="111384 -76520 -100 200" />
+			<coords loc="111416 -75944 -100 200" />
+			<coords loc="111784 -75528 -100 200" />
+			<coords loc="112232 -75128 -100 200" />
+			<coords loc="112792 -75096 -100 200" />
+			<coords loc="113368 -75128 -100 200" />
+			<coords loc="113800 -75512 -100 200" />
+			<coords loc="114168 -75944 -100 200" />
+			<coords loc="114216 -76504 -100 200" />
+			<coords loc="114168 -77080 -100 200" />
+			<coords loc="113784 -77512 -100 200" />
+			<coords loc="113352 -77880 -100 200" />
+			<coords loc="113016 -77928 -100 200" />
+		</shape>
+	</zone>
+	<!-- Guardian of the Altar debuff zone -->
+	<zone id="705012" name="[altar_debuff]" type="dummy">
+		<shape>
+			<coords loc="75220 -102636 -993 -826" />
+			<coords loc="73240 -102636 -993 -826" />
+			<coords loc="73240 -101180 -993 -826" />
+			<coords loc="75220 -101180 -993 -826" />
+		</shape>
+	</zone>
+	<zone id="702551" name="[gludio_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="-17170 109512 -1800 -1700" />
+			<coords loc="-16292 109512 -1800 -1700" />
+			<coords loc="-16292 109209 -1800 -1700" />
+			<coords loc="-17170 109209 -1800 -1700" />
+		</shape>
+	</zone>
+	<zone id="702552" name="[dion_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="20253 160539 -2000 -1900" />
+			<coords loc="21130 160539 -2000 -1900" />
+			<coords loc="21130 160237 -2000 -1900" />
+			<coords loc="20253 160237 -2000 -1900" />
+		</shape>
+	</zone>
+	<zone id="702553" name="[giran_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="116712 146916 -1870 -1770" />
+			<coords loc="116408 146916 -1870 -1770" />
+			<coords loc="116408 146039 -1870 -1770" />
+			<coords loc="116712 146039 -1870 -1770" />
+		</shape>
+	</zone>
+	<zone id="702554" name="[oren_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="82787 39010 -1600 -1500" />
+			<coords loc="82484 39010 -1600 -1500" />
+			<coords loc="82484 38135 -1600 -1500" />
+			<coords loc="82787 38135 -1600 -1500" />
+		</shape>
+	</zone>
+	<zone id="702555" name="[aden_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="142431 362 -3184 6816" />
+			<coords loc="152319 344 -3184 6816" />
+			<coords loc="152282 15197 -3184 6816" />
+			<coords loc="142393 15215 -3184 6816" />
+		</shape>
+	</zone>
+	<zone id="702556" name="[innadrile_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="115080 249015 -100 0" />
+			<coords loc="114204 249015 -100 0" />
+			<coords loc="114204 249318 -100 0" />
+			<coords loc="115080 249318 -100 0" />
+		</shape>
+	</zone>
+	<zone id="702557" name="[goddard_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="147282 -47190 -1000 -500" />
+			<coords loc="147667 -47190 -1000 -500" />
+			<coords loc="147667 -46187 -1000 -500" />
+			<coords loc="147282 -46187 -1000 -500" />
+		</shape>
+	</zone>
+	<zone id="702558" name="[rune_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="9393 -48601 3850 4000" />
+			<coords loc="11320 -48971 3850 4000" />
+			<coords loc="11320 -49313 3850 4000" />
+			<coords loc="9362 -49714 3850 4000" />
+		</shape>
+	</zone>
+	<zone id="702559" name="[schuttgart_no_drop_merchant_guard]" type="dummy" >
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<shape>
+			<coords loc="77385 -151240 700 850" />
+			<coords loc="77742 -151240 700 850" />
+			<coords loc="77742 -150358 700 850" />
+			<coords loc="77385 -150358 700 850" />
+		</shape>
+	</zone>
+</list>

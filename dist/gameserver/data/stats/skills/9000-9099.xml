@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--CUSTOM SKILLS-->
+<list>
+	<skill id="9001" levels="1" name="Mana potion">
+		<set name="itemConsumeId" val="728" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="power" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="250" />
+		<set name="altUse" val="true" />
+		<for />
+	</skill>
+</list>

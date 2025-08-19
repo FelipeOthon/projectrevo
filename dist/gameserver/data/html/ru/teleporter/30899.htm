@@ -1,0 +1,17 @@
+﻿Gatekeeper Flauen:
+
+Вы уезжаете, так скоро? Пусть благословенный свет звезд освещает ваш путь...
+
+Я надеюсь, что Вы наслаждались вашим пребыванием в Heine! Innadril это самый красивый город во всем Адене. Если вы не видели возращения судов или не слышали песню ветра в тростнике, то вы должны непременно остается, и провести еще пару дней в городе. Что вы решили?
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"Я хочу бесплатно попасть на Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"Я хочу бесплатно попасть в Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Квест]

@@ -1,0 +1,178 @@
+<list>
+	<zone id="92" name="[dion_monster_pvp]" type="battle_zone" >
+		<set name="index" val="1" />
+		<set name="entering_message_no" val="283" />
+		<set name="leaving_message_no" val="284" />
+		<shape>
+			<coords loc="11947 183019 -3596 -3396" />
+			<coords loc="12937 183019 -3596 -3396" />
+			<coords loc="12943 184010 -3596 -3396" />
+			<coords loc="11941 184010 -3596 -3396" />
+		</shape>
+		<restart_point>
+			<coords loc="11817 182897 -3560 0" />
+			<coords loc="12438 182887 -3560 0" />
+			<coords loc="13047 182902 -3560 0" />
+			<coords loc="13061 183518 -3560 0" />
+			<coords loc="13059 184123 -3560 0" />
+			<coords loc="12430 184133 -3560 0" />
+			<coords loc="11822 184143 -3560 0" />
+			<coords loc="11803 183473 -3560 0" />
+			<coords loc="12115 182896 -3560 0" />
+			<coords loc="12740 182901 -3560 0" />
+			<coords loc="13059 183199 -3560 0" />
+			<coords loc="13049 182796 -3560 0" />
+			<coords loc="12740 184138 -3560 0" />
+			<coords loc="12172 184133 -3560 0" />
+			<coords loc="11820 183806 -3560 0" />
+			<coords loc="11811 183209 -3560 0" />
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="11892 181700 -3560 0" />
+			<coords loc="14028 181695 -3560 0" />
+			<coords loc="13111 181695 -3560 0" />
+			<coords loc="12587 181702 -3560 0" />
+			<coords loc="13588 181695 -3560 0" />
+			<coords loc="14077 182490 -3560 0" />
+			<coords loc="13631 182490 -3560 0" />
+			<coords loc="13157 182490 -3560 0" />
+			<coords loc="12675 182490 -3560 0" />
+			<coords loc="11926 182503 -3560 0" />
+			<coords loc="12288 182497 -3560 0" />
+			<coords loc="12292 181707 -3560 0" />
+			<coords loc="11825 181822 -3560 0" />
+			<coords loc="11827 182334 -3560 0" />
+			<coords loc="11814 181984 -3560 0" />
+			<coords loc="11824 182172 -3560 0" />
+		</PKrestart_point>
+	</zone>
+	<zone id="102" name="[gludin_pvp]" type="battle_zone" >
+		<set name="index" val="2" />
+		<set name="entering_message_no" val="283" />
+		<set name="leaving_message_no" val="284" />
+		<shape>
+			<coords loc="-88411 141732 -3752 -3352" />
+			<coords loc="-87429 141733 -3752 -3352" />
+			<coords loc="-87429 142708 -3752 -3352" />
+			<coords loc="-88408 142708 -3752 -3352" />
+		</shape>
+		<restart_point>
+			<coords loc="-86979 142402 -3643 0" />
+		</restart_point>
+	</zone>
+	<zone id="107" name="[giran_pvp_battle]" type="battle_zone" >
+		<set name="index" val="3" />
+		<set name="entering_message_no" val="283" />
+		<set name="leaving_message_no" val="284" />
+		<shape>
+			<coords loc="72493 142263 -3850 -3350" />
+			<coords loc="73493 142264 -3850 -3350" />
+			<coords loc="73493 143261 -3850 -3350" />
+			<coords loc="72495 143258 -3850 -3350" />
+		</shape>
+		<restart_point>
+			<coords loc="73890 142656 -3778 0" />
+		</restart_point>
+	</zone>
+	<zone id="112" name="[colosseum_battle]" type="battle_zone" >
+		<set name="index" val="4" />
+		<set name="entering_message_no" val="283" />
+		<set name="leaving_message_no" val="284" />
+		<shape>
+			<coords loc="148040 46440 -3468 -3308" />
+			<coords loc="147816 46184 -3468 -3308" />
+			<coords loc="147800 46152 -3468 -3308" />
+			<coords loc="147800 45992 -3468 -3308" />
+			<coords loc="147832 45912 -3468 -3308" />
+			<coords loc="148248 45400 -3468 -3308" />
+			<coords loc="148312 45368 -3468 -3308" />
+			<coords loc="150680 45368 -3468 -3308" />
+			<coords loc="150744 45400 -3468 -3308" />
+			<coords loc="151176 45928 -3468 -3308" />
+			<coords loc="151192 46152 -3468 -3308" />
+			<coords loc="151176 46184 -3468 -3308" />
+			<coords loc="150952 46440 -3468 -3308" />
+			<coords loc="150952 47000 -3468 -3308" />
+			<coords loc="151176 47256 -3468 -3308" />
+			<coords loc="151192 47288 -3468 -3308" />
+			<coords loc="151192 47448 -3468 -3308" />
+			<coords loc="151176 47512 -3468 -3308" />
+			<coords loc="150760 48024 -3468 -3308" />
+			<coords loc="150696 48056 -3468 -3308" />
+			<coords loc="149640 48056 -3468 -3308" />
+			<coords loc="149624 48008 -3468 -3308" />
+			<coords loc="149368 48008 -3468 -3308" />
+			<coords loc="149352 48056 -3468 -3308" />
+			<coords loc="148312 48056 -3468 -3308" />
+			<coords loc="148248 48024 -3468 -3308" />
+			<coords loc="147832 47512 -3468 -3308" />
+			<coords loc="147800 47448 -3468 -3308" />
+			<coords loc="147800 47288 -3468 -3308" />
+			<coords loc="147816 47256 -3468 -3308" />
+			<coords loc="148040 47000 -3468 -3308" />
+		</shape>
+		<restart_point>
+			<coords loc="147420 46378 -3350 0" />
+			<coords loc="147696 46416 -3350 0" />
+			<coords loc="147248 47048 -3350 0" />
+			<coords loc="147449 47051 -3350 0" />
+			<coords loc="147680 47040 -3350 0" />
+			<coords loc="147232 46352 -3350 0" />
+			<coords loc="147696 46928 -3350 0" />
+			<coords loc="147456 46928 -3350 0" />
+			<coords loc="147232 46928 -3350 0" />
+			<coords loc="147232 46464 -3350 0" />
+			<coords loc="147424 46464 -3350 0" />
+			<coords loc="147696 46512 -3350 0" />
+			<coords loc="151294 46378 -3350 0" />
+			<coords loc="151535 46353 -3350 0" />
+			<coords loc="151712 46368 -3350 0" />
+			<coords loc="151753 46500 -3405 0" />
+			<coords loc="151760 46928 -3350 0" />
+			<coords loc="151760 47104 -3350 0" />
+			<coords loc="151536 46960 -3350 0" />
+			<coords loc="151536 47104 -3350 0" />
+			<coords loc="151264 47136 -3350 0" />
+			<coords loc="151264 47008 -3350 0" />
+			<coords loc="151536 46482 -3350 0" />
+			<coords loc="151296 46480 -3350 0" />
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="147420 46378 -3350 0" />
+			<coords loc="147696 46416 -3350 0" />
+			<coords loc="147248 47048 -3350 0" />
+			<coords loc="147449 47051 -3350 0" />
+			<coords loc="147680 47040 -3350 0" />
+			<coords loc="147232 46352 -3350 0" />
+			<coords loc="147696 46928 -3350 0" />
+			<coords loc="147456 46928 -3350 0" />
+			<coords loc="147232 46928 -3350 0" />
+			<coords loc="147232 46464 -3350 0" />
+			<coords loc="147424 46464 -3350 0" />
+			<coords loc="147696 46512 -3350 0" />
+			<coords loc="151294 46378 -3350 0" />
+			<coords loc="151535 46353 -3350 0" />
+			<coords loc="151712 46368 -3350 0" />
+			<coords loc="151753 46500 -3405 0" />
+			<coords loc="151760 46928 -3350 0" />
+			<coords loc="151760 47104 -3350 0" />
+			<coords loc="151536 46960 -3350 0" />
+			<coords loc="151536 47104 -3350 0" />
+			<coords loc="151264 47136 -3350 0" />
+			<coords loc="151264 47008 -3350 0" />
+			<coords loc="151536 46482 -3350 0" />
+			<coords loc="151296 46480 -3350 0" />
+		</PKrestart_point>
+	</zone>
+	<zone id="450" name="[gvg_pvp]" type="battle_zone" >
+		<set name="index" val="5" />
+		<set name="entering_message_no" val="283" />
+		<set name="leaving_message_no" val="284" />
+		<shape>
+			<coords loc="98280 -226633 -4000 -100" />
+			<coords loc="110900 -226633 -4000 -100" />
+			<coords loc="110900 -204455 -4000 -100" />
+			<coords loc="98280 -204455 -4000 -100" />
+		</shape>
+	</zone>
+</list>

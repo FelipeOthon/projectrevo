@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="6308" name="Sword of Limit" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3022" level="4" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="6312" name="Sword of Whispering Death" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3078" level="3" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="6315" name="Homunkulus's Sword" add_name="Magic Paralyze">
+		<triggers>
+			<trigger id="3079" level="3" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="5"/>
+		</triggers>
+	</weapon>
+</list>

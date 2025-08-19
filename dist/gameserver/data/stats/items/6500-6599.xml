@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="6589" name="Imperial Staff" add_name="Magic Hold">
+		<triggers>
+			<trigger id="3577" level="1" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="20"/>
+		</triggers>
+	</weapon>
+	<weapon id="6595" name="Shining Bow" add_name="Critical Slow">
+		<triggers>
+			<trigger id="3574" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>

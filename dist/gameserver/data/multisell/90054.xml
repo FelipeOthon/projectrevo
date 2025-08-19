@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+<config showall="true" notax="true" keepenchanted="true" />
+
+<!-- Donate Armor [A] +15 -->
+<!-- Dark Crystal -->
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="365" count="1" enchant="15"/>
+    <production id="388" count="1" enchant="15"/>
+    <production id="5765" count="1" enchant="15"/>
+    <production id="5777" count="1" enchant="15"/>
+    <production id="512" count="1" enchant="15"/>
+    <production id="641" count="1" enchant="15"/>
+  </item> 
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2385" count="1" enchant="15"/>
+    <production id="2389" count="1" enchant="15"/>
+    <production id="5766" count="1" enchant="15"/>
+    <production id="5778" count="1" enchant="15"/>
+    <production id="512" count="1" enchant="15"/>
+  </item> 
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2407" count="1" enchant="15"/>
+    <production id="5767" count="1" enchant="15"/>
+    <production id="5779" count="1" enchant="15"/>
+    <production id="512" count="1" enchant="15"/>
+    <production id="641" count="1" enchant="15"/>
+  </item>
+
+<!-- Nightmare -->
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="374" count="1" enchant="15"/>
+    <production id="5771" count="1" enchant="15"/>
+    <production id="5783" count="1" enchant="15"/>
+    <production id="2418" count="1" enchant="15"/>
+    <production id="2498" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2394" count="1" enchant="15"/>
+    <production id="5772" count="1" enchant="15"/>
+    <production id="5784" count="1" enchant="15"/>
+    <production id="2418" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2408" count="1" enchant="15"/>
+    <production id="5773" count="1" enchant="15"/>
+    <production id="5785" count="1" enchant="15"/>
+    <production id="2418" count="1" enchant="15"/>
+    <production id="2498" count="1" enchant="15"/>
+  </item>
+
+<!-- Tallum -->
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2382" count="1" enchant="15"/>
+    <production id="5768" count="1" enchant="15"/>
+    <production id="5780" count="1" enchant="15"/>
+    <production id="547" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2393" count="1" enchant="15"/>
+    <production id="5769" count="1" enchant="15"/>
+    <production id="5781" count="1" enchant="15"/>
+    <production id="547" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2400" count="1" enchant="15"/>
+    <production id="2405" count="1" enchant="15"/>
+    <production id="5770" count="1" enchant="15"/>
+    <production id="5782" count="1" enchant="15"/>
+    <production id="547" count="1" enchant="15"/>
+  </item>
+
+<!-- Majestic -->
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2383" count="1" enchant="15"/>
+    <production id="5774" count="1" enchant="15"/>
+    <production id="5786" count="1" enchant="15"/>
+    <production id="2419" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2395" count="1" enchant="15"/>
+    <production id="5775" count="1" enchant="15"/>
+    <production id="5787" count="1" enchant="15"/>
+    <production id="2419" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000" />
+    <production id="2409" count="1" enchant="15"/>
+    <production id="5776" count="1" enchant="15"/>
+    <production id="5788" count="1" enchant="15"/>
+    <production id="2419" count="1" enchant="15"/>
+  </item>
+
+
+
+<!-- Donate Armor [S] +15 -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="6373" count="1" enchant="15"/>
+    <production id="6374" count="1" enchant="15"/>
+    <production id="6375" count="1" enchant="15"/>
+    <production id="6376" count="1" enchant="15"/>
+    <production id="6378" count="1" enchant="15"/>
+    <production id="6377" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="6379" count="1" enchant="15"/>
+    <production id="6380" count="1" enchant="15"/>
+    <production id="6381" count="1" enchant="15"/>
+    <production id="6382" count="1" enchant="15"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="6383" count="1" enchant="15"/>
+    <production id="6384" count="1" enchant="15"/>
+    <production id="6385" count="1" enchant="15"/>
+    <production id="6386" count="1" enchant="15"/>
+    <production id="6377" count="1" enchant="15"/>
+  </item>
+  
+</list>

@@ -1,0 +1,17 @@
+﻿Gatekeeper Tamil:
+
+Вы слышали о Башне Слоновой Кости (Ivory Tower)? Так вот я одна из немногих представителей расы орков, которые когда либо посвящали свою жизнь мастерству перемещения.
+
+Я обладаю колоссальными силами. Ага, вот теперь я вижу в ваших глазах огонек уважения. Куда вас нужно доставить?
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+
+[scripts_Util:Token @811;The Village of Gludin|Телепорт за Жетон Привратника]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"Я хочу бесплатно попасть в Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Квест]

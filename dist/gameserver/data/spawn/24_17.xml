@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="aden_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147457" y="4609" z="-2789" h="0" />
+		<npc id="35266" /><!--Mass Gatekeeper-->
+	</spawn>
+	<spawn group="goddard_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147456" y="-46448" z="-963" h="49000" />
+		<npc id="35355" /><!--Mass Gatekeeper-->
+	</spawn>
+</list>

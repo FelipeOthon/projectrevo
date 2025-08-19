@@ -1,0 +1,15 @@
+﻿Gatekeeper Belladonna:
+
+Добро пожаловать! Какой чудный день! Сегодня будет здорово прогулятся в другую часть этого мира.
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"Я хочу бесплатно попасть на Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"Я хочу бесплатно попасть в Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Квест]

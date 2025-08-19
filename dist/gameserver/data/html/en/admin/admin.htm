@@ -1,0 +1,64 @@
+<title>Admin Panel</title>
+<center><table width=260>
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Events" action="bypass -h admin_server events.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="GM Shop" action="bypass -h admin_gmshop" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr></table></center><br>
+<center>Management:</center>
+<center>
+<table>
+<tr>
+<td><button value="Announcements" action="bypass -h admin_list_announcements" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Teleport Menu" action="bypass -h admin_show_moves" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Create Item" action="bypass -h admin_itemcreate" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="GM Commands" action="bypass -h admin_show_html gmcommands.htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Residences" action="bypass -h admin_residence_list" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="ClanHalls" action="bypass -h admin_clanhall" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Bonus" action="bypass -h admin_show_html bonus.htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Petitions" action="bypass -h admin_view_petitions" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Enchant" action="bypass -h admin_seteh" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Play Sounds" action="bypass -h admin_play_sounds" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Find Mammon" action="bypass -h admin_find_mammon" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Ride" action="bypass -h admin_ride ride.htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92">
+</td>
+</tr>
+</table></center><br>
+<center>Fast Commands:</center>
+<center><edit var="menu_command" width=100 height=12></center><br>
+<center>
+<table>
+<tr>
+<td><button value="Ban Menu" action="bypass -h admin_ban" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td></td>
+</tr>
+<tr>
+<td><button value="Karma" action="bypass -h admin_setkarma $menu_command" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Invis" action="bypass -h admin_invis" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Kick" action="bypass -h admin_kick $menu_command" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="HTML" action="bypass -h admin_reload_htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Tele Mode On" action="bypass -h admin_instant_move r" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Tele Mode Off" action="bypass -h admin_instant_move end" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Old Ban Menu" action="bypass -h admin_ride cban.htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="List" action="bypass -h admin_show_characters 0" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+</center>

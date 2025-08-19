@@ -1,0 +1,28 @@
+<title>Bonus Menu</title>
+<center>
+<table width=260>
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Events" action="bypass -h admin_server events.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="GM Shop" action="bypass -h admin_gmshop" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr></table><br>
+<table width=200>
+<tr><td>Char name:</td><td><edit var="name" width=120 height=10></td></tr><br>
+<tr><td>Param:</td><td><edit var="param" width=120 height=10></td></tr><br>
+</table><br><br>
+<font color="33CCFF"><a action="bypass -h admin_pledge setlevel $param">Set Clan Level to target</a></font>
+<font color="9966CC"><a action="bypass -h admin_pledge addrep $param">Add Clan Rep Points to target</a></font>
+<font color="0066FF"><a action="bypass -h admin_rec $param">Add Recommendations to target</a></font>
+<font color="CCFF77"><a action="bypass -h admin_fullcs" msg="Do you want give all clan skills to clan of your target?">Give Full Clan Skills to target</a></font>
+<font color="996600"><a action="bypass -h admin_setgiran $name">Set Giran Char name</a></font>
+<font color="FF0000"><a action="bypass -h admin_droppk $name">Drop PK target or Char name</a></font>
+<font color="FF6600"><a action="bypass -h admin_acpend $name">Show ACP end target or Char name</a></font>
+<font color="33FF00"><a action="bypass -h admin_clanonline $name">Show count online clan members target or Char name</a></font>
+<font color="FFFFFF"><a action="bypass -h admin_clansize $name">Show count clan members target or Char name</a></font>
+<br><br><br>
+<font color="FF3300"><a action="bypass -h admin_givepb $param">Give Premium Access to Buff on target (hours)</a></font>
+<br>
+<font color="FFFF00"><a action="bypass -h admin_givebonus $param">Give Premium Acc to target (rate hours)</a></font>
+</center>

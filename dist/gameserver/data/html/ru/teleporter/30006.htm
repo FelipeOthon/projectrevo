@@ -1,0 +1,15 @@
+﻿Gatekeeper Roxxy:
+
+Приветствую вас, я Gatekeeper Roxxy, я прибыла из Башни Слоновой Кости (Ivory Tower). Мне очень нравится работать именно здесь, на моём родном острове. Случалось ли вам бывать в Школе Магии Эйховант (Einhovant's School of Wizardry)? Великий Магиcтр Галлинт (Grand Magister Gallint) мой любимый преподаватель. Ну, чем я могу вам помочь?
+
+[npc_%objectId%_Chat 4|Расспросить о Башне Слоновой Кости]
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"Я хочу бесплатно попасть в Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Квест]

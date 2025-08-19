@@ -1,0 +1,58 @@
+<html><head><title>Buffer</title></head>
+<body>
+<center>
+<img src="sek.cbui32" width="300" height="2">
+<table>
+<tr>
+<td><button value="Buffs" action="bypass -h npc_%objectId%_Chat 1" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Main" width=75 height=21 back="l2ui_ch3.btn1_normaldisable" fore="l2ui_ch3.btn1_normaldisable"></td>
+<td><button value="Schemes" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:schemes" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+<tr>
+<td><button value="Songs" action="bypass -h npc_%objectId%_Chat 2" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Dances" action="bypass -h npc_%objectId%_Chat 3" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Chants" action="bypass -h npc_%objectId%_Chat 4" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+<img src="sek.cbui32" width="300" height="2">
+<br>
+<font color="DAA520">Full Buff</font>
+<table cellpadding="4" cellspacing="0">
+<tr>
+<td><button value="Attacker" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffGroup 1 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Defender" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffGroup 2 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Mage" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffGroup 3 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+<table cellpadding="4" cellspacing="0">
+<tr>
+<td><button value="Healer" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffGroup 4 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Master" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffGroup 5 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+<br><br>
+<font color="DAA520">Buffs Schemes</font>
+<table>
+<tr>
+<td><button value="Schemes" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:schemes" width=135 height=22 back="l2ui_ch3.bigbutton3_down" fore="l2ui_ch3.bigbutton3"></td>
+</tr>
+</table>
+<br><br><br>
+<font color="DAA520">Premium Buffs</font>
+<table>
+<tr>
+<td><button value="Premium" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:SelectBuffsDeluxe 0" width=135 height=22 back="l2ui_ch3.bigbutton3_down" fore="l2ui_ch3.bigbutton3"></td>
+</tr>
+</table>
+<table><tr><td height="17"></td></tr></table>
+<font color="DAA520">Additional Functions</font>
+<table>
+<tr>
+<td><button value="CP HP MP" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doHeal 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Target" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:target 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Cancel" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doCancel 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+</center>
+</body>
+</html>

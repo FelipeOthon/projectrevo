@@ -1,0 +1,15 @@
+Gatekeeper Belladonna:
+
+Welcome. What a fine day it is! It's a wonderful day to pass through the gate and see another part of the world.
+
+[npc_%objectId%_Teleport 1|Teleport]
+
+[npc_%objectId%_multisell 002|Exchange with the Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Noblesse Only teleport]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"I want free admision to the Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"I want free admission to the Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Quest]

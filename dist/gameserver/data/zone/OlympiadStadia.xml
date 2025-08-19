@@ -1,0 +1,200 @@
+<list>
+	<zone id="3001" name="[olympiad_stadium01]" type="OlympiadStadia" >
+		<set name="index" val="1" />
+		<shape>
+			<coords loc="-23711 -23873 -3584 -584" />
+			<coords loc="-18274 -23939 -3584 -584" />
+			<coords loc="-18142 -18304 -3584 -584" />
+			<coords loc="-23711 -18370 -3584 -584" />
+		</shape>
+	</zone>
+	<zone id="3002" name="[olympiad_stadium02]" type="OlympiadStadia" >
+		<set name="index" val="2" />
+		<shape>
+			<coords loc="-112716 -221280 -3516 -516" />
+			<coords loc="-107244 -221276 -3516 -516" />
+			<coords loc="-107168 -215860 -3516 -516" />
+			<coords loc="-112704 -215852 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3003" name="[olympiad_stadium03]" type="OlympiadStadia" >
+		<set name="index" val="3" />
+		<shape>
+			<coords loc="-123047 -227790 -3516 -516" />
+			<coords loc="-117575 -227786 -3516 -516" />
+			<coords loc="-117499 -222370 -3516 -516" />
+			<coords loc="-123035 -222362 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3004" name="[olympiad_stadium04]" type="OlympiadStadia" >
+		<set name="index" val="4" />
+		<shape>
+			<coords loc="-129398 -220929 -3516 -516" />
+			<coords loc="-123926 -220925 -3516 -516" />
+			<coords loc="-123850 -215509 -3516 -516" />
+			<coords loc="-129386 -215501 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3005" name="[olympiad_stadium05]" type="OlympiadStadia" >
+		<set name="index" val="5" />
+		<shape>
+			<coords loc="-117284 -215978 -3516 -516" />
+			<coords loc="-111812 -215974 -3516 -516" />
+			<coords loc="-111736 -210558 -3516 -516" />
+			<coords loc="-117272 -210550 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3006" name="[olympiad_stadium06]" type="OlympiadStadia" >
+		<set name="index" val="6" />
+		<shape>
+			<coords loc="-122999 -210072 -3516 -516" />
+			<coords loc="-117527 -210068 -3516 -516" />
+			<coords loc="-117451 -204652 -3516 -516" />
+			<coords loc="-122987 -204644 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3007" name="[olympiad_stadium07]" type="OlympiadStadia" >
+		<set name="index" val="7" />
+		<shape>
+			<coords loc="-105154 -211807 -3516 -516" />
+			<coords loc="-99682 -211803 -3516 -516" />
+			<coords loc="-99606 -206387 -3516 -516" />
+			<coords loc="-105142 -206379 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3008" name="[olympiad_stadium08]" type="OlympiadStadia" >
+		<set name="index" val="8" />
+		<shape>
+			<coords loc="-112301 -203832 -3516 -516" />
+			<coords loc="-106829 -203828 -3516 -516" />
+			<coords loc="-106753 -198412 -3516 -516" />
+			<coords loc="-112289 -198404 -3516 -516" />
+		</shape>
+	</zone>
+	<zone id="3009" name="[olympiad_stadium09]" type="OlympiadStadia" >
+		<set name="index" val="9" />
+		<shape>
+			<coords loc="-90555 -260555 -3392 -392" />
+			<coords loc="-84656 -260517 -3392 -392" />
+			<coords loc="-84695 -255006 -3392 -392" />
+			<coords loc="-90593 -255044 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3010" name="[olympiad_stadium10]" type="OlympiadStadia" >
+		<set name="index" val="10" />
+		<shape>
+			<coords loc="-96760 -253685 -3392 -392" />
+			<coords loc="-90861 -253647 -3392 -392" />
+			<coords loc="-90900 -248136 -3392 -392" />
+			<coords loc="-96799 -248175 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3011" name="[olympiad_stadium11]" type="OlympiadStadia" >
+		<set name="index" val="11" />
+		<shape>
+			<coords loc="-79978 -254197 -3392 -392" />
+			<coords loc="-74080 -254158 -3392 -392" />
+			<coords loc="-74119 -248647 -3392 -392" />
+			<coords loc="-80017 -248686 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3012" name="[olympiad_stadium12]" type="OlympiadStadia" >
+		<set name="index" val="12" />
+		<shape>
+			<coords loc="-84707 -248698 -3392 -392" />
+			<coords loc="-78809 -248659 -3392 -392" />
+			<coords loc="-78848 -243148 -3392 -392" />
+			<coords loc="-84746 -243187 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3013" name="[olympiad_stadium13]" type="OlympiadStadia" >
+		<set name="index" val="13" />
+		<shape>
+			<coords loc="-90491 -242882 -3392 -392" />
+			<coords loc="-84592 -242844 -3392 -392" />
+			<coords loc="-84631 -237333 -3392 -392" />
+			<coords loc="-90529 -237371 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3014" name="[olympiad_stadium14]" type="OlympiadStadia" >
+		<set name="index" val="14" />
+		<shape>
+			<coords loc="-72760 -244659 -3392 -392" />
+			<coords loc="-66862 -244620 -3392 -392" />
+			<coords loc="-66900 -239109 -3392 -392" />
+			<coords loc="-72799 -239148 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3015" name="[olympiad_stadium15]" type="OlympiadStadia" >
+		<set name="index" val="15" />
+		<shape>
+			<coords loc="-79703 -236629 -3392 -392" />
+			<coords loc="-73805 -236590 -3392 -392" />
+			<coords loc="-73844 -231080 -3392 -392" />
+			<coords loc="-79742 -231118 -3392 -392" />
+		</shape>
+	</zone>
+	<zone id="3016" name="[olympiad_stadium16]" type="OlympiadStadia" >
+		<set name="index" val="16" />
+		<shape>
+			<coords loc="-90549 -227734 -3388 -388" />
+			<coords loc="-84559 -227734 -3388 -388" />
+			<coords loc="-84559 -222143 -3388 -388" />
+			<coords loc="-90549 -222143 -3388 -388" />
+		</shape>
+	</zone>
+	<zone id="3017" name="[olympiad_stadium17]" type="OlympiadStadia" >
+		<set name="index" val="17" />
+		<shape>
+			<coords loc="-96681 -221043 -3388 -388" />
+			<coords loc="-90691 -221043 -3388 -388" />
+			<coords loc="-90691 -215452 -3388 -388" />
+			<coords loc="-96681 -215452 -3388 -388" />
+		</shape>
+	</zone>
+	<zone id="3018" name="[olympiad_stadium18]" type="OlympiadStadia" >
+		<set name="index" val="18" />
+		<shape>
+			<coords loc="-80153 -221554 -3388 -388" />
+			<coords loc="-74163 -221554 -3388 -388" />
+			<coords loc="-74163 -215963 -3388 -388" />
+			<coords loc="-80153 -215963 -3388 -388" />
+		</shape>
+	</zone>
+	<zone id="3019" name="[olympiad_stadium19]" type="OlympiadStadia" >
+		<set name="index" val="19" />
+		<shape>
+			<coords loc="-84880 -216093 -3388 -388" />
+			<coords loc="-78890 -216093 -3388 -388" />
+			<coords loc="-78890 -210502 -3388 -388" />
+			<coords loc="-84880 -210502 -3388 -388" />
+		</shape>
+	</zone>
+	<zone id="3020" name="[olympiad_stadium20]" type="OlympiadStadia" >
+		<set name="index" val="20" />
+		<shape>
+			<coords loc="-90661 -210104 -3388 -388" />
+			<coords loc="-84671 -210104 -3388 -388" />
+			<coords loc="-84671 -204513 -3388 -388" />
+			<coords loc="-90661 -204513 -3388 -388" />
+		</shape>
+	</zone>
+	<zone id="3021" name="[olympiad_stadium21]" type="OlympiadStadia" >
+		<set name="index" val="21" />
+		<shape>
+			<coords loc="-79754 -204116 -3388 -388" />
+			<coords loc="-73764 -204116 -3388 -388" />
+			<coords loc="-73764 -198525 -3388 -388" />
+			<coords loc="-79754 -198525 -3388 -388" />
+		</shape>
+	</zone>
+	<zone id="3022" name="[olympiad_stadium22]" type="OlympiadStadia" >
+		<set name="index" val="22" />
+		<shape>
+			<coords loc="-72712 -212004 -3388 -388" />
+			<coords loc="-66722 -212004 -3388 -388" />
+			<coords loc="-66722 -206414 -3388 -388" />
+			<coords loc="-72712 -206414 -3388 -388" />
+		</shape>
+	</zone>
+</list>

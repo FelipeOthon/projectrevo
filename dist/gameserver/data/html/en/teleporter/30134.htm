@@ -1,0 +1,13 @@
+Gatekeeper Jasmine:
+
+Here in the gatekeepers guild, we manage the gates of space and time that link various places on the continent. Aren't you eager to test yourself in the larger world beyond the forest? If you want, I will send you to a far-off land where adventure and romance await you!
+
+[npc_%objectId%_Teleport 1|Teleport]
+
+[npc_%objectId%_multisell 002|Exchange with the Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Noblesse Only teleport]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"I want free admission to the Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Quest]

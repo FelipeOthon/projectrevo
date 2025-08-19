@@ -1,0 +1,57 @@
+﻿<title>Manage Char</title>
+<center>
+<table width=260>
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Events" action="bypass -h admin_server events.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="GM Shop" action="bypass -h admin_gmshop" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr></table>
+<table width=200>
+<tr><td>Char name:</td><td><edit var="name" width=120 height=10></td></tr><br>
+<tr><td>Time/Karma:</td><td><edit var="time" width=120 height=10></td></tr><br>
+<tr><td>Reason:</td><td><edit var="reason" width=120 height=10></td></tr><br>
+<tr><td>Oly points:</td><td><edit var="point" width=120 height=10></td></tr><br>
+</table><br>
+<table>
+<tr>
+<td><button value="Ban"  action="bypass -h admin_old_ban $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unban"  action="bypass -h admin_old_unban $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Ban chat"  action="bypass -h admin_chatban $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Karma"  action="bypass -h admin_ckarma $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Set Class"  action="bypass -h admin_show_html setclass.htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Sub Class"  action="bypass -h admin_show_html charsubclasses.htm" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Kill" action="bypass -h admin_kill_menu $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Go to" action="bypass -h admin_goto_char_menu $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Kick" action="bypass -h admin_kick_menu $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Recall" action="bypass -h admin_recall_char_menu $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Add Oly Points" action="bypass -h admin_add_oly_points $name $point" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Show Oly Points" action="bypass -h admin_oly_points $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br>
+<button value="Characters List" action="bypass -h admin_show_characters 0" width=100 height=18 back="sek.cbui94" fore="sek.cbui92">
+______________________________________________
+<br>
+<table>
+<tr>
+<td><button value="Save Oly" action="bypass -h admin_oly_save" width=75 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Start Oly" action="bypass -h admin_oly_start" width=55 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Stop Oly" action="bypass -h admin_oly_stop" width=45 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Show Oly End" action="bypass -h admin_oly_end" width=75 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br>
+<font color="FFFFFF"><a action="bypass -h admin_setolyend $point">Set Oly End: hour day month year minute</a></font>
+</center>

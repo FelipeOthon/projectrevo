@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="8803" name="Tiphon's Spear" add_name="Critical Stun">
+		<triggers>
+			<trigger id="3070" level="4" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8811" name="Sobekk's Hurricane" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3039" level="6" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8813" name="Themis' Tongue" add_name="Magic Mental Shield">
+		<triggers>
+			<trigger id="1035" level="4" type="SUPPORT_MAGICAL_SKILL_USE" chance="50"/>
+		</triggers>
+	</weapon>
+	<weapon id="8814" name="Themis' Tongue" add_name="Magic Focus">
+		<triggers>
+			<trigger id="1077" level="3" type="SUPPORT_MAGICAL_SKILL_USE" chance="20"/>
+		</triggers>
+	</weapon>
+	<weapon id="8817" name="Cabrio's Hand" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3074" level="2" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="8820" name="Daimon Crystal" add_name="Magic Mental Shield">
+		<triggers>
+			<trigger id="1035" level="4" type="SUPPORT_MAGICAL_SKILL_USE" chance="50"/>
+		</triggers>
+	</weapon>
+</list>

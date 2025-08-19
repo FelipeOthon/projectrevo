@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Запускается через админку Events:AutoAnnouncer:Start -->
+<!-- Время указывается в минутах -->
+<list>
+	<announce delay="1" repeat="3">
+		<message text="Сообщение 1" />
+	</announce>
+	<announce delay="2" repeat="30">
+		<message text="Сообщение 2" />
+	</announce>
+	<announce delay="3" repeat="60">
+		<message text="Сообщение 3" />
+	</announce>
+</list>

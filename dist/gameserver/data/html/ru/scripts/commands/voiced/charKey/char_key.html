@@ -1,0 +1,15 @@
+<html><title>Система безопасности</title><body><br><br>
+<font color="LEVEL">Вы можете установить или удалить ключ к Вашему персонажу.</font><br>
+<font color="FF0000">Установка данного ключа запретит выполнять основные действия с персонажем после входа в игру без ввода установленного ключа!</font><br><br>
+<font color="00ff66">Блокировка ключом:</font> <font color="LEVEL">%stat%</font><br><br>
+<center>
+<table>
+<tr><td width=40>Ключ:</td><td><edit var="name" width=170 height=10 length=16></td><td width=40></td></tr><br>
+</table>
+<button value="Установить" action="bypass -h user_charkeyset $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92" />
+<br><br><br>
+<button value="Удалить" action="bypass -h user_charkeydel" width=100 height=18 back="sek.cbui94" fore="sek.cbui92" />
+<br><br><br><br><br>
+<button value="Основное меню" action="bypass -h user_lock" width=100 height=18 back="sek.cbui94" fore="sek.cbui92" />
+</center>
+</body></html>

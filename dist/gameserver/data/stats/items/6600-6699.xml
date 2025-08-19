@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="6604" name="Demon Splinter" add_name="Critical Stun">
+		<triggers>
+			<trigger id="3070" level="3" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="6611" name="Infinity Blade">
+		<triggers>
+			<trigger id="3579" level="1" type="CRIT" chance="4"/>
+		</triggers>
+	</weapon>
+	<weapon id="6613" name="Infinity Axe">
+		<triggers>
+			<trigger id="3581" level="1" type="CRIT" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="6614" name="Infinity Rod">
+		<triggers>
+			<trigger id="3598" level="1" type="SUPPORT_MAGICAL_SKILL_USE" chance="3"/>
+		</triggers>
+	</weapon>
+	<weapon id="6615" name="Infinity Crusher">
+		<triggers>
+			<trigger id="3584" level="1" type="CRIT" chance="25"/>
+		</triggers>
+	</weapon>
+	<weapon id="6616" name="Infinity Scepter">
+		<triggers>
+			<trigger id="3596" level="1" type="CRIT" chance="1"/>
+		</triggers>
+	</weapon>
+	<weapon id="6617" name="Infinity Stinger">
+		<triggers>
+			<trigger id="3590" level="1" type="CRIT" chance="5"/>
+		</triggers>
+	</weapon>
+	<weapon id="6618" name="Infinity Fang">
+		<triggers>
+			<trigger id="3588" level="1" type="CRIT" chance="25"/>
+		</triggers>
+	</weapon>
+	<weapon id="6619" name="Infinity Bow">
+		<triggers>
+			<trigger id="3594" level="1" type="CRIT" chance="7"/>
+		</triggers>
+	</weapon>
+	<weapon id="6620" name="Infinity Wing">
+		<triggers>
+			<trigger id="3586" level="1" type="CRIT" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="6621" name="Infinity Spear">
+		<triggers>
+			<trigger id="3592" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>

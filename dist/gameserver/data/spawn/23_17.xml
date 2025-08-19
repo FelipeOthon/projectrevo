@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="giran_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116535" y="146677" z="-1851" h="49152" />
+		<npc id="35179" /><!--Mass Gatekeeper-->
+	</spawn>
+	<spawn group="innadril_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114443" y="249142" z="-74" h="0" />
+		<npc id="35311" /><!--Mass Gatekeeper-->
+	</spawn>
+</list>

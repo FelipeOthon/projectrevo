@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="7578" name="Draconic Bow" add_name="Critical Slow">
+		<triggers>
+			<trigger id="3574" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>

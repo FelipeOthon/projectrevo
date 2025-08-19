@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="7702" name="Stick of Faith" add_name="Magic Hold">
+		<triggers>
+			<trigger id="1201" level="16" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="7703" name="Stick of Faith" add_name="Magic Shield">
+		<triggers>
+			<trigger id="1035" level="2" type="SUPPORT_MAGICAL_SKILL_USE" chance="50"/>
+		</triggers>
+	</weapon>
+	<weapon id="7706" name="Stick of Eternity" add_name="Blessed Body">
+		<triggers>
+			<trigger id="1045" level="3" type="SUPPORT_MAGICAL_SKILL_USE" chance="20"/>
+		</triggers>
+	</weapon>
+	<weapon id="7708" name="Nirvana Axe" add_name="Magic Poison">
+		<triggers>
+			<trigger id="1168" level="6" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="8"/>
+		</triggers>
+	</weapon>
+	<weapon id="7709" name="Nirvana Axe" add_name="Magic Weakness">
+		<triggers>
+			<trigger id="1164" level="9" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="8"/>
+		</triggers>
+	</weapon>
+	<weapon id="7711" name="Club of Nature" add_name="Magic Mental Shield">
+		<triggers>
+			<trigger id="1035" level="3" type="SUPPORT_MAGICAL_SKILL_USE" chance="50"/>
+		</triggers>
+	</weapon>
+	<weapon id="7712" name="Club of Nature" add_name="Magic Hold">
+		<triggers>
+			<trigger id="1201" level="21" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="7714" name="Mace of the Underworld" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3078" level="3" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="7717" name="Inferno Staff" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3078" level="3" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="7718" name="Inferno Staff" add_name="Magic Paralyze">
+		<triggers>
+			<trigger id="3079" level="3" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="5"/>
+		</triggers>
+	</weapon>
+	<weapon id="7719" name="Poleaxe" add_name="Critical Stun">
+		<triggers>
+			<trigger id="3571" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="7723" name="Sword of Valhalla" add_name="Magic Weakness">
+		<triggers>
+			<trigger id="1164" level="11" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="8"/>
+		</triggers>
+	</weapon>
+	<weapon id="7724" name="Sword of Valhalla" add_name="Magic Regeneration">
+		<triggers>
+			<trigger id="1044" level="3" type="SUPPORT_MAGICAL_SKILL_USE" chance="30"/>
+		</triggers>
+	</weapon>
+</list>

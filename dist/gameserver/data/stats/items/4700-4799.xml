@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="4759" name="Cursed Dagger" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3020" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4760" name="Cursed Dagger" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3041" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4765" name="Stiletto" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3020" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4766" name="Stiletto" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3041" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4773" name="Dark Screamer" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3020" level="5" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4774" name="Crystal Dagger" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3020" level="5" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4775" name="Crystal Dagger" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3041" level="3" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4780" name="Demon Dagger" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3020" level="5" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4781" name="Demon Dagger" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3041" level="3" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4789" name="Chakram" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3039" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4790" name="Chakram" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3040" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4795" name="Great Pata" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3039" level="4" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4796" name="Great Pata" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3040" level="3" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>

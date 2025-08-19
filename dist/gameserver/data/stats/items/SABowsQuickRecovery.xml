@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='4812' name="Crystallized Ice Bow - Quick Recovery">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='4815' name="Elemental Bow">
+		<mul val='0.80' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='4829' name="Bow of Peril">
+		<mul val='0.87' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='4833' name="Carnage Bow">
+		<mul val='0.90' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='5612' name="Soul Bow">
+		<mul val='0.85' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="physDamage" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="magicDamage" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='8808' name="Shyeed's Bow">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="physDamage" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="magicDamage" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+</list>

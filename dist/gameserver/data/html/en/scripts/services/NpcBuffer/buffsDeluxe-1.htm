@@ -1,0 +1,71 @@
+<html><head><title>Buffer</title></head>
+<body>
+<center>
+<img src="sek.cbui32" width="300" height="2">
+<table>
+<tr>
+<td><button value="Buffs" action="bypass -h npc_%objectId%_Chat 1" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Main" action="bypass -h npc_%objectId%_Chat 0" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Schemes" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:schemes" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+<tr>
+<td><button value="Songs" action="bypass -h npc_%objectId%_Chat 2" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Dances" action="bypass -h npc_%objectId%_Chat 3" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Chants" action="bypass -h npc_%objectId%_Chat 4" width=75 height=21 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+<img src="sek.cbui32" width="300" height="2">
+<table width="270" height="32">
+<tr>
+<td align=center>
+<font color=FF3300><a action="bypass -h scripts_services.RateBonus:listPB">%action%</a></font>
+</td>
+</tr>
+</table>
+<img src="sek.cbui32" width="300" height="2">
+<table width="270" cellpadding="2" cellspacing="0">
+<tr>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 1191 3 0" width=32 height=32 back="icon.skill1191" fore="icon.skill1191"></td>
+<td><button value="Resist Fire" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 1191 3 0" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+<td width="3"></td>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 306 1 0" width=32 height=32 back="icon.skill0306" fore="icon.skill0306"></td>
+<td><button value="Flame Guard" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 306 1 0" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+</tr>
+<tr>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 308 1 1" width=32 height=32 back="icon.skill0308" fore="icon.skill0308"></td>
+<td><button value="Storm Guard" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 308 1 1" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+<td width="3"></td>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 270 1 1" width=32 height=32 back="icon.skill0270" fore="icon.skill0270"></td>
+<td><button value="Invocation" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 270 1 1" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+</tr>
+<tr>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 305 1 1" width=32 height=32 back="icon.skill0305" fore="icon.skill0305"></td>
+<td><button value="Vengeance" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 305 1 1" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+<td width="3"></td>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 307 1 1" width=32 height=32 back="icon.skill0307" fore="icon.skill0307"></td>
+<td><button value="Aqua Guard" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 307 1 1" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+</tr>
+<tr>
+<td><button action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 309 1 1" width=32 height=32 back="icon.skill0309" fore="icon.skill0309"></td>
+<td><button value="Earth Guard" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doBuffDeluxe 309 1 1" width=94 height=21 back="l2ui_ch3.bigbutton_down" fore="l2ui_ch3.bigbutton"></td>
+<td width="3"></td>
+<td></td>
+</tr><tr><td height="110"></td></tr>
+</table>
+<img src="sek.cbui32" width="300" height="2"><br1>
+<table width="230" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="95">Page:</td>
+		<td width="20"><button value="<<" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:SelectBuffsDeluxe 0" width=20 height=14 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td width="10"></td>
+		<td width="15"><button value="1" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:SelectBuffsDeluxe 0" width=15 height=14 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td width="5"></td>
+		<td width="15"><font color="LEVEL">[2]</font></td>
+		<td width="10"></td>
+		<td width="20"></td>
+		<td width="5"></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='4683' name="Stormbringer">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='4707' name="Sword of Nightmare">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='4713' name="Flamberge">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='4845' name="Bec de Corbin">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='4836' name="Scythe">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='4857' name="Great Axe">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='5608' name="Carnage Bow">
+		<mul order="0x30" stat="maxLoad" val="1.2" />
+	</item>
+	<item id='6718' name="Flag">
+		<mul order="0x30" stat="runSpd" val="0.5">
+			<using player="true" />
+		</mul>
+	</item>
+</list>

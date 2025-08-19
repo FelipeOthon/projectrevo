@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Exchange - Newbie Armor -->
+
+<list>
+  <!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+  <!-- ignoreprice не работает с keepencahnted -->
+  <config showall="false" notax="true" keepenchanted="false" />
+
+  <!-- Piece Bone Breastplate for Bone Breastplate + 11500 Adena -->
+  <item>
+    <ingredient id="24" count="1"/>
+    <ingredient id="57" count="11500"/>
+    <production id="25" count="1"/>
+  </item>
+
+  <!-- Piece Bone Gaiters for Bone Gaiters + 7200 Adena -->
+  <item>
+    <ingredient id="31" count="1"/>
+    <ingredient id="57" count="7200"/>
+    <production id="32" count="1"/>
+  </item>
+
+  <!-- Bronze Gaiters for Piece Bone Gaiters + 10800 Adena -->
+  <item>
+    <ingredient id="32" count="1"/>
+    <ingredient id="57" count="7200"/>
+    <production id="34" count="1"/>
+  </item>
+
+  <!-- Bronze Breastplate for Piece Bone Breastplate + 17400 Adena -->
+  <item>
+    <ingredient id="25" count="1"/>
+    <ingredient id="57" count="17400"/>
+    <production id="26" count="1"/>
+  </item>
+
+  <!-- Ring Mail Breastplate for Bronze Breastplate + 34300 Adena -->
+  <item>
+    <ingredient id="26" count="1"/>
+    <ingredient id="57" count="34300"/>
+    <production id="347" count="1"/>
+  </item>
+
+  <!-- Iron Plate Gaiters for Bronze Gaiters + 21500 Adena -->
+  <item>
+    <ingredient id="34" count="1"/>
+    <ingredient id="57" count="21500"/>
+    <production id="376" count="1"/>
+  </item>
+
+  <!-- Leather Shirt for Shirt + 2283 Adena -->
+  <item>
+    <ingredient id="21" count="1"/>
+    <ingredient id="57" count="2283"/>
+    <production id="22" count="1"/>
+  </item>
+
+  <!-- Wooden Breastplate for Leather Shirt + 5530 Adena -->
+  <item>
+    <ingredient id="22" count="1"/>
+    <ingredient id="57" count="5530"/>
+    <production id="23" count="1"/>
+  </item>
+
+  <!-- Bone Breastplate for Wooden Breastplate + 12340 Adena -->
+  <item>
+    <ingredient id="23" count="1"/>
+    <ingredient id="57" count="12340"/>
+    <production id="24" count="1"/>
+  </item>
+
+  <!-- Hard Leather Shirt for Bone Breastplate + 16600 Adena -->
+  <item>
+    <ingredient id="24" count="1"/>
+    <ingredient id="57" count="16600"/>
+    <production id="27" count="1"/>
+  </item>
+
+  <!-- Puma Skin Shirt for Hard Leather Shirt + 42300 Adena -->
+  <item>
+    <ingredient id="27" count="1"/>
+    <ingredient id="57" count="42300"/>
+    <production id="391" count="1"/>
+  </item>
+
+  <!-- Leather Pants for Pants + 1428 Adena -->
+  <item>
+    <ingredient id="28" count="1"/>
+    <ingredient id="57" count="1428"/>
+    <production id="29" count="1"/>
+  </item>
+
+  <!-- Wooden Gaiters for Leather Pants + 3450 Adena -->
+  <item>
+    <ingredient id="29" count="1"/>
+    <ingredient id="57" count="3450"/>
+    <production id="2386" count="1"/>
+  </item>
+
+  <!-- Bone Gaiters for Wooden Gaiters + 7730 Adena -->
+  <item>
+    <ingredient id="2386" count="1"/>
+    <ingredient id="57" count="7730"/>
+    <production id="31" count="1"/>
+  </item>
+
+  <!-- Hard Leather Gaiters for Bone Gaiters + 10300 Adena -->
+  <item>
+    <ingredient id="31" count="1"/>
+    <ingredient id="57" count="10300"/>
+    <production id="33" count="1"/>
+  </item>
+
+  <!-- Puma Skin Gaiters for Hard Leather Gaiters + 16100 Adena -->
+  <item>
+    <ingredient id="33" count="1"/>
+    <ingredient id="57" count="16100"/>
+    <production id="413" count="1"/>
+  </item>
+
+  <!-- Hard Leather Shirt for Cotton Shirt + 16600 Adena -->
+  <item>
+    <ingredient id="390" count="1"/>
+    <ingredient id="57" count="16600"/>
+    <production id="27" count="1"/>
+  </item>
+
+  <!-- Puma Skin Shirt for Cotton Shirt + 37300 Adena -->
+  <item>
+    <ingredient id="390" count="1"/>
+    <ingredient id="57" count="37300"/>
+    <production id="391" count="1"/>
+  </item>
+
+  <!-- Hard Leather Gaiters for Cotton Pants + 10300 Adena -->
+  <item>
+    <ingredient id="412" count="1"/>
+    <ingredient id="57" count="10300"/>
+    <production id="33" count="1"/>
+  </item>
+
+  <!-- Puma Skin Gaiters for Cotton Pants + 23400 Adena -->
+  <item>
+    <ingredient id="412" count="1"/>
+    <ingredient id="57" count="23400"/>
+    <production id="413" count="1"/>
+  </item>
+
+  <!-- Shirt for Squire`s Shirt + 121 Adena -->
+  <item>
+    <ingredient id="1146" count="1"/>
+    <ingredient id="57" count="121"/>
+    <production id="21" count="1"/>
+  </item>
+
+  <!-- Pants for Squire`s Pants + 86 Adena -->
+  <item>
+    <ingredient id="1147" count="1"/>
+    <ingredient id="57" count="86"/>
+    <production id="28" count="1"/>
+  </item>
+
+  <!-- Tunic for Apprentice`s Tunic + 121 Adena -->
+  <item>
+    <ingredient id="425" count="1"/>
+    <ingredient id="57" count="121"/>
+    <production id="426" count="1"/>
+  </item>
+
+  <!-- Feriotic Tunic for Tunic + 2283 Adena -->
+  <item>
+    <ingredient id="426" count="1"/>
+    <ingredient id="57" count="2283"/>
+    <production id="428" count="1"/>
+  </item>
+
+  <!-- Leather Tunic for Feriotic Tunic + 5530 Adena -->
+  <item>
+    <ingredient id="428" count="1"/>
+    <ingredient id="57" count="5530"/>
+    <production id="429" count="1"/>
+  </item>
+
+  <!-- Tunic of Devotion for Leather Tunic + 12340 Adena -->
+  <item>
+    <ingredient id="429" count="1"/>
+    <ingredient id="57" count="12340"/>
+    <production id="1101" count="1"/>
+  </item>
+
+  <!-- Stockings for Apprentice`s Stockings + 86 Adena -->
+  <item>
+    <ingredient id="461" count="1"/>
+    <ingredient id="57" count="86"/>
+    <production id="462" count="1"/>
+  </item>
+
+  <!-- Feriotic Stockings for Stockings + 1428 Adena -->
+  <item>
+    <ingredient id="462" count="1"/>
+    <ingredient id="57" count="1428"/>
+    <production id="463" count="1"/>
+  </item>
+
+  <!-- Leather Stockings for Feriotic Stockings + 3450 Adena -->
+  <item>
+    <ingredient id="463" count="1"/>
+    <ingredient id="57" count="3450"/>
+    <production id="464" count="1"/>
+  </item>
+
+  <!-- Stockings of Devotion for Leather Stockings + 7730 Adena -->
+  <item>
+    <ingredient id="464" count="1"/>
+    <ingredient id="57" count="7730"/>
+    <production id="1104" count="1"/>
+  </item>
+
+  <!-- Leather Tunic for Cotton Tunic + 5530 Adena -->
+  <item>
+    <ingredient id="1100" count="1"/>
+    <ingredient id="57" count="5530"/>
+    <production id="429" count="1"/>
+  </item>
+
+  <!-- Tunic of Magic for Tunic of Devotion + 16600 Adena -->
+  <item>
+    <ingredient id="1101" count="1"/>
+    <ingredient id="57" count="16600"/>
+    <production id="1102" count="1"/>
+  </item>
+
+  <!-- Cursed Tunic for Tunic of Magic + 25700 Adena -->
+  <item>
+    <ingredient id="1102" count="1"/>
+    <ingredient id="57" count="25700"/>
+    <production id="432" count="1"/>
+  </item>
+
+  <!-- Leather Stockings for Cotton Stockings + 3450 Adena -->
+  <item>
+    <ingredient id="1103" count="1"/>
+    <ingredient id="57" count="3450"/>
+    <production id="464" count="1"/>
+  </item>
+
+  <!-- Stockings of Magic for Stockings of Devotion + 10300 Adena -->
+  <item>
+    <ingredient id="1104" count="1"/>
+    <ingredient id="57" count="10300"/>
+    <production id="1105" count="1"/>
+  </item>
+
+  <!-- Cursed Stockings for Stockings of Magic + 16100 Adena -->
+  <item>
+    <ingredient id="1105" count="1"/>
+    <ingredient id="57" count="16100"/>
+    <production id="465" count="1"/>
+  </item>
+
+  <!-- Leather Sandals for Apprentice`s Shoes + 30 Adena -->
+  <item>
+    <ingredient id="1121" count="1"/>
+    <ingredient id="57" count="30"/>
+    <production id="36" count="1"/>
+  </item>
+
+  <!-- Cotton Shoes for Cloth Shoes + 570 Adena -->
+  <item>
+    <ingredient id="35" count="1"/>
+    <ingredient id="57" count="570"/>
+    <production id="1122" count="1"/>
+  </item>
+
+  <!-- Cotton Shoes for Leather Sandals + 570 Adena -->
+  <item>
+    <ingredient id="36" count="1"/>
+    <ingredient id="57" count="570"/>
+    <production id="1122" count="1"/>
+  </item>
+
+  <!-- Leather Shoes for Cotton Shoes + 2043 Adena -->
+  <item>
+    <ingredient id="1122" count="1"/>
+    <ingredient id="57" count="2043"/>
+    <production id="37" count="1"/>
+  </item>
+
+  <!-- Leather Shoes for Crude Leather Shoes + 2043 Adena -->
+  <item>
+    <ingredient id="1129" count="1"/>
+    <ingredient id="57" count="2043"/>
+    <production id="37" count="1"/>
+  </item>
+
+  <!-- Low Boots for Leather Shoes + 4120 Adena -->
+  <item>
+    <ingredient id="37" count="1"/>
+    <ingredient id="57" count="4120"/>
+    <production id="38" count="1"/>
+  </item>
+
+  <!-- Boots for Low Boots + 5530 Adena -->
+  <item>
+    <ingredient id="38" count="1"/>
+    <ingredient id="57" count="5530"/>
+    <production id="39" count="1"/>
+  </item>
+
+  <!-- Leather Boots for Boots + 8600 Adena -->
+  <item>
+    <ingredient id="39" count="1"/>
+    <ingredient id="57" count="8600"/>
+    <production id="40" count="1"/>
+  </item>
+
+  <!-- Leather Cap for Cloth Cap + 856 Adena -->
+  <item>
+    <ingredient id="41" count="1"/>
+    <ingredient id="57" count="856"/>
+    <production id="42" count="1"/>
+  </item>
+
+  <!-- Wooden Helmet for Leather Cap + 3069 Adena -->
+  <item>
+    <ingredient id="42" count="1"/>
+    <ingredient id="57" count="3069"/>
+    <production id="43" count="1"/>
+  </item>
+
+  <!-- Leather Helmet for Wooden Helmet + 6220 Adena -->
+  <item>
+    <ingredient id="43" count="1"/>
+    <ingredient id="57" count="6220"/>
+    <production id="44" count="1"/>
+  </item>
+
+  <!-- Hard Leather Helmet for Leather Helmet + 8200 Adena -->
+  <item>
+    <ingredient id="44" count="1"/>
+    <ingredient id="57" count="8200"/>
+    <production id="1148" count="1"/>
+  </item>
+
+  <!-- Gloves for Short Gloves + 2043 Adena -->
+  <item>
+    <ingredient id="48" count="1"/>
+    <ingredient id="57" count="2043"/>
+    <production id="49" count="1"/>
+  </item>
+
+  <!-- Leather Gloves for Gloves + 4120 Adena -->
+  <item>
+    <ingredient id="49" count="1"/>
+    <ingredient id="57" count="4120"/>
+    <production id="50" count="1"/>
+  </item>
+
+  <!-- Bracer for Leather Gloves + 5530 Adena -->
+  <item>
+    <ingredient id="50" count="1"/>
+    <ingredient id="57" count="5530"/>
+    <production id="51" count="1"/>
+  </item>
+
+  <!-- Excellent Leather Gloves for Bracer + 8600 Adena -->
+  <item>
+    <ingredient id="51" count="1"/>
+    <ingredient id="57" count="8600"/>
+    <production id="604" count="1"/>
+  </item>
+
+  <!-- Bone Helmet for Hard Leather Helmet + 12900 Adena -->
+  <item>
+    <ingredient id="1148" count="1"/>
+    <ingredient id="57" count="12900"/>
+    <production id="45" count="1"/>
+  </item>
+
+  <!-- Small Shield for Leather Shield + 600 Adena -->
+  <item>
+    <ingredient id="18" count="1"/>
+    <ingredient id="57" count="600"/>
+    <production id="19" count="1"/>
+  </item>
+
+  <!-- Buckler for Small Shield + 2142 Adena -->
+  <item>
+    <ingredient id="19" count="1"/>
+    <ingredient id="57" count="2142"/>
+    <production id="20" count="1"/>
+  </item>
+
+  <!-- Round Shield for Skeleton Buckler + 3670 Adena -->
+  <item>
+    <ingredient id="945" count="1"/>
+    <ingredient id="57" count="3670"/>
+    <production id="102" count="1"/>
+  </item>
+
+  <!-- Round Shield for Buckler + 4330 Adena -->
+  <item>
+    <ingredient id="20" count="1"/>
+    <ingredient id="57" count="4330"/>
+    <production id="102" count="1"/>
+  </item>
+
+  <!-- Bone Shield for Round Shield + 5790 Adena -->
+  <item>
+    <ingredient id="102" count="1"/>
+    <ingredient id="57" count="5790"/>
+    <production id="625" count="1"/>
+  </item>
+
+  <!-- Bronze Shield for Bone Shield + 9000 Adena -->
+  <item>
+    <ingredient id="625" count="1"/>
+    <ingredient id="57" count="9000"/>
+    <production id="626" count="1"/>
+  </item>
+</list>

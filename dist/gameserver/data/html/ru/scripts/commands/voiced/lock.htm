@@ -1,0 +1,31 @@
+<html><title>Система безопасности</title><body>
+<font color="00ff66">Варианты блокировки:</font><br1>
+- Блокировка по IP адресу <font color="LEVEL">(%ip_block%)</font><br1>
+- Блокировка персонажа по железу <font color="LEVEL">(%hwid_block_char%)</font><br1>
+- Блокировка аккаунта по железу <font color="LEVEL">(%hwid_block%)</font><br1>
+- Блокировка персонажа ключом <font color="LEVEL">(%char_key%)</font>
+<br>
+<font color="00ff66">Предупреждение для предосторожности:</font><br1>
+- Динамический IP периодически изменяется<br1>
+- Железо - это ID Вашего ПК<br1>
+- Железо меняется во время апгрейда ПК<br1>
+- Ключ персонажа - это Ваш секретный пароль
+<br>
+<font color="00ff66">Состояние текущей сессии:</font><br1>
+Ваш текущий IP адрес: <font color="LEVEL">%curIP%</font>
+<br>
+<button value="Ключ персонажа" action="bypass -h user_charkey" width=100 height=16 back="sek.cbui94" fore="sek.cbui92" />
+<br>
+<a action="bypass -h user_lockIp"><font color="ff0000">Установить блокировку по IP</font></a><br1>
+<a action="bypass -h user_unlockIp"><font color="ff0000">Удалить блокировку по IP</font></a><br1>
+<a action="bypass -h user_lockchar"><font color="ffff00">Вкл\Выкл блокировку персонажа по железу #1</font></a><br1>
+<a action="bypass -h user_lockacc"><font color="ff5000">Вкл\Выкл блокировку аккаунта по железу #1</font></a>
+<br><br>
+<font color="66ccff">* Для установки блокировки по железу #2 нужно ввести ник персонажа и привязка будет осуществлена к железу, с которого была последняя сессия на указанном персонаже:</font>
+<br1>
+<center><edit var="name" width=170 length=16></center><br>
+<a action="bypass -h user_lockchar2 $name"><font color="339900">Вкл\Выкл блокировку персонажа по железу #2</font></a><br1>
+<a action="bypass -h user_lockacc2 $name"><font color="AA0000">Вкл\Выкл блокировку аккаунта по железу #2</font></a>
+<br>
+<font color="ff33cc">* Для удаления блокировки по железу #2 оставьте поле с именем персонажа пустым</font>
+</body></html>

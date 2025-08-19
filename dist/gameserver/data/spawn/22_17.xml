@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="oren_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82611" y="38772" z="-1578" h="49152" />
+		<npc id="35221" /><!--Mass Gatekeeper-->
+	</spawn>
+
+	<!--Bandits Stronghold-->
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83348" y="-18267" z="-1248" h="14536" />
+		<npc id="35561" /><!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81258" y="-17387" z="-1248" h="11144" />
+		<npc id="35562" /><!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81832" y="-14223" z="-1248" h="-17664" />
+		<npc id="35563" /><!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83687" y="-14532" z="-1248" h="-19008" />
+		<npc id="35564" /><!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85263" y="-15447" z="-1248" h="-21328" />
+		<npc id="35565" /><!--Mass Teleporter-->
+	</spawn>
+</list>

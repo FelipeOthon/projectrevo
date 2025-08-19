@@ -1,0 +1,59 @@
+<title>Teleport Menu</title>
+<table width=260>
+<tr>
+<td width=40>
+<button value="Main" action="bypass -h admin_admin" width=40 height=18 back="sek.cbui94" fore="sek.cbui92">
+</td>
+<td width=180>
+</td>
+<td width=40>
+<button value="Back" action="bypass -h admin_admin" width=40 height=18 back="sek.cbui94" fore="sek.cbui92">
+</td>
+</tr>
+</table>
+<br>
+<table width=270>
+<tr><td>Move to common locations:</td></tr>
+<tr><td>[admin_show_html tele/towns/towns.htm|Towns]</td></tr>
+<tr><td>[admin_show_html tele/castles/castles.htm|Castles]</td></tr>
+<tr><td>[admin_show_html tele/arenas.htm|Arenas]</td></tr>
+<tr><td>[admin_show_html tele/raid/raid.htm|Boss and Raid Boss]</td></tr>
+<tr><td>[admin_show_html tele/other.htm|Other Locations]</td></tr>
+<tr><td>[admin_show_html tele/c4.htm|C4 Locations]</td></tr>
+<tr><td>[admin_show_html tele/c5.htm|C5 Locations]</td></tr>
+<tr><td>[admin_show_html tele/interlude.htm|Interlude]</td></tr>
+<tr><td>[admin_show_html tele/catacombs/catacombs.htm|Catatacombs]</td></tr>
+<tr><td>[admin_show_html tele/necropolis/necropolis.htm|Necropolis]</td></tr>
+<tr><td>[admin_show_html tele/rift.htm|Rift]</td></tr>
+<tr><td>[admin_show_html tele/stadiums.htm|Olympiad Stadiums]</td></tr>
+</table>
+<br><br>
+<center>
+<table width=260>
+<tr>
+<td width=15>X:</td>
+<td><edit var="char_cord_x" width=55 height=12 length=10></td>
+<td width=15>Y:</td>
+<td><edit var="char_cord_y" width=55 height=12 length=10></td>
+<td width=15>Z:</td>
+<td><edit var="char_cord_z" width=55 height=12 length=10></td>
+<td><button value="Go" action="bypass -h admin_move_to $char_cord_x $char_cord_y $char_cord_z" width=35 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td width=45>NPC ID:</td>
+<td><edit var="npc_id" width=177 height=12 length=12></td>
+<td><button value="Go" action="bypass -h admin_tonpc $npc_id" width=35 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td width=45>Player:</td>
+<td><edit var="charname" width=177 height=12 length=16></td>
+<td><button value="Go" action="bypass -h admin_goto_char_menu $charname" width=35 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+</center>

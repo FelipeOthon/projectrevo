@@ -1,0 +1,55 @@
+<html>
+<title>ACP</title>
+<body>
+<br><br>
+<center>
+<img src="L2UI_CH3.herotower_deco" width=256 height=32>
+<font color="LEVEL">The system automatically uses potions<br1>HP / MP / CP.</font><br>
+<table width=260 border=0 cellspacing=0 cellpadding=0>
+<tr>
+	<td width=90>
+		<table bgcolor="FFFF00">
+			<tr>
+				<td width=20>CP</td>
+				<td width=70 align=center><?auto_cp?></td>
+			</tr>
+		</table>
+	</td>
+	<td width=35 align="center"><edit var="cpvalue" width=30 type="number" length="3"></td>
+	<td width=65 align="center"><button width=52 height=21 back="sek.cbui94" fore="sek.cbui92" action="bypass -h user_acp cp $cpvalue" value="Set"></td>
+	<td width=65 align="center"><button width=52 height=21 back="sek.cbui94" fore="sek.cbui92" action="bypass -h user_acp cp 0" value="Disable"></td>
+</tr>
+<tr>
+	<td width=90>
+		<table bgcolor="FF0000">
+			<tr>
+				<td width=20>HP</td>
+				<td width=70 align=center><?auto_hp?></td>
+			</tr>
+		</table>
+	</td>
+	<td width=35 align="center"><edit var="hpvalue" width=30 type="number" length="3"></td>
+	<td width=65 align="center"><button width=52 height=21 back="sek.cbui94" fore="sek.cbui92" action="bypass -h user_acp hp $hpvalue" value="Set"></td>
+	<td width=65 align="center"><button width=52 height=21 back="sek.cbui94" fore="sek.cbui92" action="bypass -h user_acp hp 0" value="Disable"></td>
+</tr>
+<tr>
+	<td width=90>
+		<table bgcolor="0000FF">
+			<tr>
+				<td width=20>MP</td>
+				<td width=70 align=center><?auto_mp?></td>
+			</tr>
+		</table>
+	</td>
+	<td width=35 align="center"><edit var="mpvalue" width=30 type="number" length="3"></td>
+	<td width=65 align="center"><button width=52 height=21 back="sek.cbui94" fore="sek.cbui92" action="bypass -h user_acp mp $mpvalue" value="Set"></td>
+	<td width=65 align="center"><button width=52 height=21 back="sek.cbui94" fore="sek.cbui92" action="bypass -h user_acp mp 0" value="Disable"></td>
+</tr>
+</table>
+<img src="L2UI_CH3.herotower_deco" width=256 height=32>
+</center>
+</body>
+</html>
+<!--TEMPLATE1
+Disabled
+TEMPLATE-->

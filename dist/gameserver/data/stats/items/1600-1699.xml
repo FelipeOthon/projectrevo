@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="1660" name="Cursed Maingauche">
+		<triggers>
+			<trigger id="3005" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>

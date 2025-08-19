@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="4681" name="Stormbringer" add_name="Critical Anger">
+		<triggers>
+			<trigger id="3025" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4691" name="Spirit Sword" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3024" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4694" name="Raid Sword" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3022" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="4695" name="Raid Sword" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3024" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="dion_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="20492" y="160363" z="-1978" h="0" />
+		<npc id="35137" /><!--Mass Gatekeeper-->
+	</spawn>
+</list>

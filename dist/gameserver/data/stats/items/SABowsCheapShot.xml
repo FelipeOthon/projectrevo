@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='4818' name="Elven Bow of Nobility">
+		<set val='2' order='0x08' stat='cheapShot' />
+		<set val='46' order='0x08' stat='cheapShotChance' />
+	</item>
+	<item id='4824' name="Eminence Bow">
+		<set val='1' order='0x08' stat='cheapShot' />
+		<set val='34' order='0x08' stat='cheapShotChance' />
+	</item>
+	<item id='4830' name="Bow of Peril">
+		<set val='2' order='0x08' stat='cheapShot' />
+		<set val='42' order='0x08' stat='cheapShotChance' />
+	</item>
+	<item id='5611' name="Soul Bow">
+		<set val='2' order='0x08' stat='cheapShot' />
+		<set val='38' order='0x08' stat='cheapShotChance' />
+	</item>
+	<item id='6593' name="Shining Bow">
+		<set val='2' order='0x08' stat='cheapShot' />
+		<set val='26' order='0x08' stat='cheapShotChance' />
+	</item>
+	<item id='7576' name="Draconic Bow">
+		<set val='1' order='0x08' stat='cheapShot' />
+		<set val='26' order='0x08' stat='cheapShotChance' />
+	</item>
+	<item id='8806' name="Shyeed's Bow">
+		<set val='1' order='0x08' stat='cheapShot' />
+		<set val='30' order='0x08' stat='cheapShotChance' />
+	</item>
+</list>

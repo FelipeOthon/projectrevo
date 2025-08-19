@@ -1,0 +1,26 @@
+<list>
+	<zone id="700101" name="[MDT_no_summon]" type="no_summon" >
+		<shape>
+			<coords loc="14440 181273" />
+			<coords loc="14535 184206" />
+			<coords loc="11678 184349" />
+			<coords loc="11700 181241" />
+		</shape>
+	</zone>
+	<zone id="700102" name="[QA_no_summon]" type="no_summon">
+		<shape>
+			<coords loc="-23176 185080 -6000 -5500" />
+			<coords loc="-20104 185080 -6000 -5500" />
+			<coords loc="-20104 177928 -6000 -5500" />
+			<coords loc="-23176 177928 -6000 -5500" />
+		</shape>
+	</zone>
+	<zone id="700103" name="[IT_no_summon]" type="no_summon">
+		<shape>
+			<coords loc="167800 -88920 -3100 -2840" />
+			<coords loc="167800 -93000 -3100 -2840" />
+			<coords loc="171300 -93000 -3100 -2840" />
+			<coords loc="171300 -88920 -3100 -2840" />
+		</shape>
+	</zone>
+</list>

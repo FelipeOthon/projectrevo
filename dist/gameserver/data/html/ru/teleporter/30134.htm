@@ -1,0 +1,13 @@
+﻿Gatekeeper Jasmine:
+
+Здесь в гильдии хранителей врат, мы используем нашу силу для перемещения в различные места на континенте. Неужели вы не хотите испытать свои силы в огромном мире за пределами леса? Если вы пожелаете я отправлю вас в далекие земли где романтика и приключения ждут вас!
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"Я хочу бесплатно попасть в Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Квест]

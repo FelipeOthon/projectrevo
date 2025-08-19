@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Exchange - Newbie Jewel -->
+
+<list>
+  <!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+  <!-- ignoreprice не работает с keepencahnted -->
+  <config showall="false" notax="true" keepenchanted="false" />
+
+  <!-- Mystic`s Earring for Apprentice`s Earring + 762 Adena -->
+  <item>
+    <ingredient id="112" count="1"/>
+    <ingredient id="57" count="762"/>
+    <production id="113" count="1"/>
+  </item>
+
+  <!-- Earring of Wisdom for Mystic`s Earring + 2700 Adena -->
+  <item>
+    <ingredient id="113" count="1"/>
+    <ingredient id="57" count="2700"/>
+    <production id="115" count="1"/>
+  </item>
+
+  <!-- Cat`s Eye Earring for Earring of Strength + 5380 Adena -->
+  <item>
+    <ingredient id="114" count="1"/>
+    <ingredient id="57" count="5380"/>
+    <production id="845" count="1"/>
+  </item>
+
+  <!-- Cat`s Eye Earring for Earring of Wisdom + 5380 Adena -->
+  <item>
+    <ingredient id="115" count="1"/>
+    <ingredient id="57" count="5380"/>
+    <production id="845" count="1"/>
+  </item>
+
+  <!-- Coral Earring for Cat`s Eye Earring + 7110 Adena -->
+  <item>
+    <ingredient id="845" count="1"/>
+    <ingredient id="57" count="7110"/>
+    <production id="846" count="1"/>
+  </item>
+
+  <!-- Red Crescent Earring for Coral Earring + 10900 Adena -->
+  <item>
+    <ingredient id="846" count="1"/>
+    <ingredient id="57" count="10900"/>
+    <production id="847" count="1"/>
+  </item>
+
+  <!-- Ring of Knowledge for Magic Ring + 507 Adena -->
+  <item>
+    <ingredient id="116" count="1"/>
+    <ingredient id="57" count="507"/>
+    <production id="875" count="1"/>
+  </item>
+
+  <!-- Ring of Anguish for Ring of Knowledge + 1800 Adena -->
+  <item>
+    <ingredient id="875" count="1"/>
+    <ingredient id="57" count="1800"/>
+    <production id="876" count="1"/>
+  </item>
+
+  <!-- Ring of Wisdom for Ring of Anguish + 3580 Adena -->
+  <item>
+    <ingredient id="876" count="1"/>
+    <ingredient id="57" count="3580"/>
+    <production id="877" count="1"/>
+  </item>
+
+  <!-- Blue Coral Ring for Ring of Wisdom + 4780 Adena -->
+  <item>
+    <ingredient id="877" count="1"/>
+    <ingredient id="57" count="4780"/>
+    <production id="878" count="1"/>
+  </item>
+
+  <!-- Ring of Devotion for Blue Coral Ring + 7300 Adena -->
+  <item>
+    <ingredient id="878" count="1"/>
+    <ingredient id="57" count="7300"/>
+    <production id="890" count="1"/>
+  </item>
+
+  <!-- Necklace of Knowledge for Necklace of Magic + 1015 Adena -->
+  <item>
+    <ingredient id="118" count="1"/>
+    <ingredient id="57" count="1015"/>
+    <production id="906" count="1"/>
+  </item>
+
+  <!-- Necklace of Anguish for Necklace of Knowledge + 3600 Adena -->
+  <item>
+    <ingredient id="906" count="1"/>
+    <ingredient id="57" count="3600"/>
+    <production id="907" count="1"/>
+  </item>
+
+  <!-- Necklace of Wisdom for Necklace of Anguish + 7220 Adena -->
+  <item>
+    <ingredient id="907" count="1"/>
+    <ingredient id="57" count="7220"/>
+    <production id="908" count="1"/>
+  </item>
+
+  <!-- Blue Diamond Necklace for Necklace of Wisdom + 9400 Adena -->
+  <item>
+    <ingredient id="908" count="1"/>
+    <ingredient id="57" count="9400"/>
+    <production id="909" count="1"/>
+  </item>
+
+  <!-- Necklace of Devotion for Blue Diamond Necklace + 14600 Adena -->
+  <item>
+    <ingredient id="909" count="1"/>
+    <ingredient id="57" count="14600"/>
+    <production id="910" count="1"/>
+  </item>
+</list>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="8104" name="Pa'agrian Sword" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3022" level="4" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8105" name="Guardian Sword" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3022" level="6" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8107" name="Guardian Sword" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3055" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8113" name="Mysterious Sword" add_name="Magic Weakness">
+		<triggers>
+			<trigger id="1164" level="7" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="8"/>
+		</triggers>
+	</weapon>
+	<weapon id="8116" name="Ecliptic Sword" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3078" level="4" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="8122" name="Dwarven Hammer" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3052" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8125" name="Karik Horn" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3022" level="4" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8128" name="Destroyer Hammer" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3059" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8131" name="Ice Storm Hammer" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3052" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="8140" name="Ecliptic Axe" add_name="Magic Hold">
+		<triggers>
+			<trigger id="1201" level="23" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="8142" name="Spell Breaker" add_name="Magic Mental Shield">
+		<triggers>
+			<trigger id="1035" level="4" type="SUPPORT_MAGICAL_SKILL_USE" chance="50"/>
+		</triggers>
+	</weapon>
+	<weapon id="8143" name="Spell Breaker" add_name="Magic Hold">
+		<triggers>
+			<trigger id="1201" level="25" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="8145" name="Kaim Vanul's Bones" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3078" level="6" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="8148" name="Spiritual Eye" add_name="Magic Poison">
+		<triggers>
+			<trigger id="1168" level="6" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="8"/>
+		</triggers>
+	</weapon>
+	<weapon id="8152" name="Flaming Dragon Skull" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3074" level="2" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+</list>

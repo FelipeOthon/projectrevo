@@ -1,0 +1,62 @@
+<title>Ban Menu</title>
+<center>
+<table width=260>
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Events" action="bypass -h admin_server events.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="GM Shop" action="bypass -h admin_gmshop" width=50 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr></table>
+<table width=240>
+<tr><td>Char name/IP:</td><td><edit var="name" width=150 height=10></td></tr><br>
+<tr><td>Time:</td><td><edit var="time" width=150 height=10></td></tr><br>
+<tr><td>Reason:</td><td><multiedit var="reason" width=150 height=41></td></tr><br>
+</table><br>
+<table>
+<tr>
+<td><button value="Info Ban Char"  action="bypass -h admin_isban $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="IP Ban List"  action="bypass -h admin_ipbanlist" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Show IP Char"  action="bypass -h admin_charip $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Ban IP Char days"  action="bypass -h admin_ipcharban $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Ban IP days"  action="bypass -h admin_ipban $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unban IP"  action="bypass -h admin_ipunban $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Ban Char days"  action="bypass -h admin_old_ban $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unban Char"  action="bypass -h admin_old_unban $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Ban Acc Char days"  action="bypass -h admin_acc_ban $name $time" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unban Acc Char"  action="bypass -h admin_acc_unban $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="BanHWID Targ days"  action="bypass -h admin_hban $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="BanHWID Char days"  action="bypass -h admin_hnban $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="BanAccsHWID days"  action="bypass -h admin_accsbanhwid $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unban HWID Char"  action="bypass -h admin_unhban $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="BanTrade Targ days"  action="bypass -h admin_trade_ban $time" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="UnbanTrade Target"  action="bypass -h admin_trade_unban" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Jail Char min"  action="bypass -h admin_jail $name $time" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unjail Char"  action="bypass -h admin_unjail $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Ban Chat Char min"  action="bypass -h admin_n $name $time $reason" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unban Chat Char"  action="bypass -h admin_n $name 0" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+<tr>
+<td><button value="Unlock IP Char"  action="bypass -h admin_unlockip $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+<td><button value="Unlock HWID Char"  action="bypass -h admin_unlockhwid $name" width=100 height=18 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+</center>

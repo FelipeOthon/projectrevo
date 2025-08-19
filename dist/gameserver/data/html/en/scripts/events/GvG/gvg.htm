@@ -1,0 +1,12 @@
+<html>
+<title>GvG Manager</title>
+<body>
+<center><br>
+<font color="ff33ff">Имя персонажа (оппонента):</font> <edit var="target" width=170 height=10 length=16><br><br>
+<font color="cccc00">Предмет ставки:</font> <combobox width=85 var="item" list="%i%"></center>
+<table><tr><td width=100></td><td width=180><font color="ffff00">%info%</font></td></tr></table><br>
+<center><font color="33ff00">Количество ставки:</font> <edit var="price" width=70 height=10 length=10><br>
+<button value="Отправить вызов" action="bypass -h scripts_events.GvG.GvG:first $item $price $target" width=135 height=21 back="L2UI_CH3.bigbutton3_down" fore="L2UI_CH3.bigbutton3">
+</center>
+</body>
+</html>

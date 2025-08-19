@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="schuttgart_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="77564" y="-150504" z="771" h="45000" />
+		<npc id="35547" /><!--Group Gatekeeper-->
+	</spawn>
+</list>

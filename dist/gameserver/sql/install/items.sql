@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `items` (
+  `object_id` int NOT NULL default 0,
+  `owner_id` int NOT NULL,
+  `item_id` smallint unsigned NOT NULL default 0,
+  `name` VARCHAR(65) CHARACTER SET UTF8 DEFAULT NULL,
+  `count` bigint unsigned NOT NULL default 0,
+  `enchant_level` smallint unsigned NOT NULL default 0,
+  `loc` ENUM('CLANWH','CWH_BACK','FREIGHT','INVENTORY','PAPERDOLL','VOID','WAREHOUSE','MONSTER') NOT NULL,
+  `loc_data` int default NULL,
+  `custom_type1` smallint unsigned NOT NULL default 0,
+  `custom_type2` smallint unsigned NOT NULL default 0,
+  `shadow_life_time` int NOT NULL default 0,
+  `flags` int NOT NULL default 0,
+  `variation_stone_id` int(7) NOT NULL,
+  `variation1_id` int(7) NOT NULL,
+  `variation2_id` int(7) NOT NULL,
+  PRIMARY KEY  (`object_id`),
+  KEY `key_owner_id` (`owner_id`),
+  KEY `key_loc` (`loc`),
+  KEY `key_item_id` (`item_id`)
+) ENGINE=InnoDB;

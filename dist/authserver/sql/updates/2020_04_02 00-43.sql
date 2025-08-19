@@ -1,0 +1,1 @@
+ALTER TABLE accounts CHANGE `bonus` `bonus` double NOT NULL DEFAULT '0';

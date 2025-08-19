@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='4814' name="Elemental Bow">
+		<set val='7' order='0x08' stat='miser' />
+		<set val='30' order='0x08' stat='miserChance' />
+	</item>
+	<item id='4817' name="Elven Bow of Nobility">
+		<set val='7' order='0x08' stat='miser' />
+		<set val='30' order='0x08' stat='miserChance' />
+	</item>
+	<item id='4821' name="Akat Long Bow">
+		<set val='8' order='0x08' stat='miser' />
+		<set val='30' order='0x08' stat='miserChance' />
+	</item>
+	<item id='4823' name="Eminence Bow">
+		<set val='9' order='0x08' stat='miser' />
+		<set val='30' order='0x08' stat='miserChance' />
+	</item>
+	<item id='4827' name="Dark Elven Long Bow">
+		<set val='2' order='0x08' stat='miser' />
+		<set val='19' order='0x08' stat='miserChance' />
+	</item>
+</list>

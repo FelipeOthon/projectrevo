@@ -1,0 +1,15 @@
+Gatekeeper Roxxy:
+
+Greetings. I am the Gatekeeper Roxxy, dispatched from the Ivory Tower.I am very happy to be working here in my homeland.Have you, by chance, been to Einhovant's School of Wizardry?Grand Magister Gallint used to be my beloved teacher. So then, what can i do for you?
+
+[npc_%objectId%_Chat 4|Ask about the Ivory Tower]
+
+[npc_%objectId%_Teleport 1|Teleport]
+
+[npc_%objectId%_multisell 002|Exchange with the Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Noblesse Only teleport]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"I want free admission to the Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Quest]

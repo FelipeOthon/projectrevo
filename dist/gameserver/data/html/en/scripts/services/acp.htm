@@ -1,0 +1,57 @@
+<html><body>
+
+<center><font color="LEVEL">Auto Combat Points settings</font></center><br><br><br>
+
+<table>
+
+<tr>
+<td width=5></td>
+<td width=150><font color="ff9900">Greater CP Potion:</font></td>
+<td width=30>%cp%</td>
+<td width=30><edit var="setCP" width=30 height=12 length=2></td>
+<td width=30><button width=30 height=17 back="sek.cbui94" fore="sek.cbui92" action="bypass -h scripts_services.RateBonus:setACP percentCP $setCP" value="Set"></td>
+</tr>
+
+<tr>
+<td width=5></td>
+<td width=150><font color="ff3333">Greater Healing Potion:</font></td>
+<td width=30>%hp%</td>
+<td width=30><edit var="setHP" width=30 height=12 length=2></td>
+<td width=30><button width=30 height=17 back="sek.cbui94" fore="sek.cbui92" action="bypass -h scripts_services.RateBonus:setACP percentHP $setHP" value="Set"></td>
+</tr>
+
+<tr>
+<td width=5></td>
+<td width=150><font color="0066ff">Mana Potion:</font></td>
+<td width=30>%mp%</td>
+<td width=30><edit var="setMP" width=30 height=12 length=2></td>
+<td width=30><button width=30 height=17 back="sek.cbui94" fore="sek.cbui92" action="bypass -h scripts_services.RateBonus:setACP percentMP $setMP" value="Set"></td>
+</tr>
+
+<tr>
+<td width=5></td>
+<td width=150><font color="ffff66">Elixir of CP:</font></td>
+<td width=30>%ecp%</td>
+<td width=30><edit var="setECP" width=30 height=12 length=2></td>
+<td width=30><button width=30 height=17 back="sek.cbui94" fore="sek.cbui92" action="bypass -h scripts_services.RateBonus:setACP percentECP $setECP" value="Set"></td>
+</tr>
+
+<tr>
+<td width=5></td>
+<td width=150><font color="cc0000">Elixir of Life:</font></td>
+<td width=30>%ehp%</td>
+<td width=30><edit var="setEHP" width=30 height=12 length=2></td>
+<td width=30><button width=30 height=17 back="sek.cbui94" fore="sek.cbui92" action="bypass -h scripts_services.RateBonus:setACP percentEHP $setEHP" value="Set"></td>
+</tr>
+
+</table><br><br><br><br><br>
+
+<table width=280><tr>
+<td width=5></td><td align=left valign=top width=270>
+<font color="00ff66">.acp</font> - On/Off ACP<br1>
+<font color="00ff66">.acpset</font> - ACP percents settings<br1>
+<font color="00ff66">.acpend</font> - show end time of access to ACP
+</td>
+</tr></table>
+
+</body></html>

@@ -1,0 +1,17 @@
+Gatekeeper Tatiana:
+
+Hello! Pleased to meet you. I'm Tatiana, a gatekeeper of Goddard Castle Town. I control a gate of time and space, which allows people to travel instantly to remote places! If you want to learn how to operate it, you must study at the Ivory Tower for a long time, as I did.
+
+Now, where would you like to go?
+
+[npc_%objectId%_Teleport 1|Teleport]
+
+[npc_%objectId%_multisell 002|Exchange with the Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Noblesse Only teleport]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"I want free admision to the Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"I want free admission to the Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Quest]

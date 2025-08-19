@@ -1,0 +1,15 @@
+Gatekeeper Trisha:
+
+It is not a bad idea to take your time and rest along the Way when you are walking to another village. However, if you don't have the time, we gatekeepers can help you by opening the door of space and time. Now, where do you want to go?
+
+[npc_%objectId%_Teleport 1|Teleport]
+
+[npc_%objectId%_multisell 002|Exchange with the Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Noblesse Only teleport]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"I want free admision to the Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.TeleToGH:toGH @811;Giran Harbor|"I want free admission to the Giran Harbor."]<br>
+#end
+[npc_%objectId%_Quest|Quest]

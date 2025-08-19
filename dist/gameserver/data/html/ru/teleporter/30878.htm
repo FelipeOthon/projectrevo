@@ -1,0 +1,15 @@
+﻿Gatekeeper Angelina:
+
+Это - Гавань Giran, через которую должны пройти все товары, идущие в или исходящие из Giran. Даже мы привратники не можем волшебно телепортировать большие предметы. Если бы это было так, что случилось ранее... Нет, нет. Только фантазия...
+
+[npc_%objectId%_Teleport 1|Телепорт]
+
+[npc_%objectId%_multisell 002|Обменять Dimension Diamond]
+
+[scripts_Util:NoblessTeleport|Телепорт только для Дворян]
+
+[scripts_services.TeleToMDT:toMDT @811;Monster Derby Track|"Я хочу бесплатно попасть на Monster Derby Track."]
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<br>[scripts_services.ManaRegen:DoManaRegen|<font color=LEVEL>Полное восстановление MP. (1 MP за 5 Adena)</font>]<br>[scripts_services.TeleToGH:fromGH @811;From Giran Harbor|<font color=LEVEL>" Я хочу покинуть Giran Harbor."</font>"]<br>
+#end
+[npc_%objectId%_Quest|Квест]

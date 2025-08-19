@@ -1,0 +1,31 @@
+<html><title>Security settings</title><body>
+<font color="00ff66">Blocking options:</font><br1>
+- Blocking by IP address <font color="LEVEL">(%ip_block%)</font><br1>
+- Blocking char by PC <font color="LEVEL">(%hwid_block_char%)</font><br1>
+- Blocking account by PC <font color="LEVEL">(%hwid_block%)</font><br1>
+- Blocking char by key <font color="LEVEL">(%char_key%)</font>
+<br>
+<font color="00ff66">Warning for precaution:</font><br1>
+- Dynamic IP varies periodically<br1>
+- PC - Personal Computer<br1>
+- PC changes during upgrade<br1>
+- Char key - your secret password
+<br>
+<font color="00ff66">State of the current session:</font><br1>
+Your current IP address: <font color="LEVEL">%curIP%</font>
+<br>
+<button value="Char key" action="bypass -h user_charkey" width=100 height=16 back="sek.cbui94" fore="sek.cbui92" />
+<br>
+<a action="bypass -h user_lockIp"><font color="ff0000">Set blocking by IP</font></a><br1>
+<a action="bypass -h user_unlockIp"><font color="ff0000">Delete blocking by IP</font></a><br1>
+<a action="bypass -h user_lockchar"><font color="ffff00">On/Off blocking char by PC #1</font></a><br1>
+<a action="bypass -h user_lockacc"><font color="ff5000">On/Off blocking accont by PC #1</font></a>
+<br><br>
+<font color="66ccff">* For blocking on PC #2, enter character's nickname and lock will be made to PC from which a final session on the chosen character:</font>
+<br1>
+<center><edit var="name" width=170 length=16></center><br>
+<a action="bypass -h user_lockchar2 $name"><font color="339900">On/Off blocking char by PC #2</font></a><br1>
+<a action="bypass -h user_lockacc2 $name"><font color="AA0000">On/Off blocking accont by PC #2</font></a>
+<br>
+<font color="ff33cc">* To remove blocking on PC #2 leave the field blank with the name of the character</font>
+</body></html>

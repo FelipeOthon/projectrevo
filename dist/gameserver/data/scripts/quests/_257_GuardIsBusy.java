@@ -1,0 +1,132 @@
+package quests;
+
+import l2s.gameserver.model.instances.NpcInstance;
+import l2s.gameserver.model.quest.Quest;
+import l2s.gameserver.model.quest.QuestState;
+import l2s.gameserver.network.l2.s2c.ExShowScreenMessage;
+import l2s.gameserver.scripts.ScriptFile;
+
+public class _257_GuardIsBusy extends Quest implements ScriptFile
+{
+	int GLUDIO_LORDS_MARK;
+	int ORC_AMULET;
+	int ORC_NECKLACE;
+	int WEREWOLF_FANG;
+	int ADENA;
+
+	@Override
+	public void onLoad()
+	{}
+
+	@Override
+	public void onReload()
+	{}
+
+	@Override
+	public void onShutdown()
+	{}
+
+	public _257_GuardIsBusy()
+	{
+		super(false);
+		GLUDIO_LORDS_MARK = 1084;
+		ORC_AMULET = 752;
+		ORC_NECKLACE = 1085;
+		WEREWOLF_FANG = 1086;
+		ADENA = 57;
+		this.addStartNpc(30039);
+		this.addKillId(new int[] { 20130, 20131, 20132, 20342, 20343, 20006, 20093, 20096, 20098 });
+		addQuestItem(new int[] { ORC_AMULET, ORC_NECKLACE, WEREWOLF_FANG, GLUDIO_LORDS_MARK });
+	}
+
+	@Override
+	public String onEvent(final String event, final QuestState st, final NpcInstance npc)
+	{
+		String htmltext = event;
+		if(event.equalsIgnoreCase("gilbert_q0257_03.htm"))
+		{
+			st.set("cond", "1");
+			st.setState(2);
+			st.playSound(Quest.SOUND_ACCEPT);
+			st.takeItems(GLUDIO_LORDS_MARK, -1L);
+			st.giveItems(GLUDIO_LORDS_MARK, 1L);
+		}
+		else if(event.equalsIgnoreCase("257_2"))
+		{
+			htmltext = "gilbert_q0257_05.htm";
+			st.takeItems(GLUDIO_LORDS_MARK, -1L);
+			st.playSound(Quest.SOUND_FINISH);
+			st.exitCurrentQuest(true);
+		}
+		else if(event.equalsIgnoreCase("257_3"))
+			htmltext = "gilbert_q0257_06.htm";
+		return htmltext;
+	}
+
+	@Override
+	public String onTalk(final NpcInstance npc, final QuestState st)
+	{
+		String htmltext = "noquest";
+		final int cond = st.getInt("cond");
+		if(cond == 0)
+		{
+			if(st.getPlayer().getLevel() >= 6)
+			{
+				htmltext = "gilbert_q0257_02.htm";
+				return htmltext;
+			}
+			htmltext = "gilbert_q0257_01.htm";
+			st.exitCurrentQuest(true);
+		}
+		else if(cond == 1 && st.getQuestItemsCount(ORC_AMULET) < 1L && st.getQuestItemsCount(ORC_NECKLACE) < 1L && st.getQuestItemsCount(WEREWOLF_FANG) < 1L)
+			htmltext = "gilbert_q0257_04.htm";
+		else if(cond == 1 && (st.getQuestItemsCount(ORC_AMULET) > 0L || st.getQuestItemsCount(ORC_NECKLACE) > 0L || st.getQuestItemsCount(WEREWOLF_FANG) > 0L))
+		{
+			st.giveItems(ADENA, 12L * st.getQuestItemsCount(ORC_AMULET) + 20L * st.getQuestItemsCount(ORC_NECKLACE) + 25L * st.getQuestItemsCount(WEREWOLF_FANG), false);
+			if(st.getPlayer().getClassId().getLevel() == 1 && !st.getPlayer().getVarBoolean("p1q2"))
+			{
+				st.getPlayer().setVar("p1q2", "1");
+				st.getPlayer().sendPacket(new ExShowScreenMessage("Acquisition of Soulshot for beginners complete.\n                  Go find the Newbie Guide.", 5000, ExShowScreenMessage.ScreenMessageAlign.TOP_CENTER, true));
+				final QuestState qs = st.getPlayer().getQuestState(255);
+				if(qs != null && qs.getInt("Ex") != 10)
+				{
+					st.showQuestionMark(26);
+					qs.set("Ex", "10");
+					if(st.getPlayer().isMageClass())
+					{
+						st.playTutorialVoice("tutorial_voice_027");
+						st.giveItems(5790, 3000L);
+					}
+					else
+					{
+						st.playTutorialVoice("tutorial_voice_026");
+						st.giveItems(5789, 6000L);
+					}
+				}
+			}
+			st.takeItems(ORC_AMULET, -1L);
+			st.takeItems(ORC_NECKLACE, -1L);
+			st.takeItems(WEREWOLF_FANG, -1L);
+			htmltext = "gilbert_q0257_07.htm";
+		}
+		return htmltext;
+	}
+
+	@Override
+	public String onKill(final NpcInstance npc, final QuestState st)
+	{
+		final int npcId = npc.getNpcId();
+		if(st.getQuestItemsCount(GLUDIO_LORDS_MARK) > 0L && st.getInt("cond") > 0)
+			if(npcId == 20130 || npcId == 20131 || npcId == 20006)
+				st.rollAndGive(ORC_AMULET, 1, 50.0);
+			else if(npcId == 20093 || npcId == 20096 || npcId == 20098)
+				st.rollAndGive(ORC_NECKLACE, 1, 50.0);
+			else if(npcId == 20132)
+				st.rollAndGive(WEREWOLF_FANG, 1, 33.0);
+			else if(npcId == 20343)
+				st.rollAndGive(WEREWOLF_FANG, 1, 50.0);
+			else if(npcId == 20342)
+				st.rollAndGive(WEREWOLF_FANG, 1, 75.0);
+		return null;
+	}
+}

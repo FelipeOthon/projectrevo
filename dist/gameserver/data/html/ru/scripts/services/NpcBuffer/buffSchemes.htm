@@ -1,0 +1,34 @@
+<html><head><title>Buffer</title></head>
+<body>
+<center>
+<img src="sek.cbui32" width="300" height="2">
+<table>
+<tr>
+<td><button value="Баффы" action="bypass -h npc_%objectId%_Chat 1" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Главная" action="bypass -h npc_%objectId%_Chat 0" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Профили" width=75 height=21 back="l2ui_ch3.btn1_normaldisable" fore="l2ui_ch3.btn1_normaldisable"></td>
+</tr>
+<tr>
+<td><button value="Песни" action="bypass -h npc_%objectId%_Chat 2" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Танцы" action="bypass -h npc_%objectId%_Chat 3" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Чанты" action="bypass -h npc_%objectId%_Chat 4" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+<img src="sek.cbui32" width="300" height="2">
+<br>
+<edit var="name" width=135 length=10>
+<button value="Сохранить Профиль" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:saveScheme $name" width=135 height=22 back="l2ui_ch3.bigbutton3_down" fore="l2ui_ch3.bigbutton3">
+<br>
+<font color=DAA520>Сохраненные профили:</font>
+<table><tr><td height=165><center>%sch%</center></td></tr></table>
+<br>
+<table>
+<tr>
+<td><button value="CP HP MP" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doHeal s" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Сменить цель" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:target s" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+<td><button value="Кенцел" action="bypass -h scripts_services.NpcBuffer.NpcBuffer:doCancel s" width=75 height=22 back="l2ui_ch3.btn1_normal_down" fore="l2ui_ch3.btn1_normal"></td>
+</tr>
+</table>
+</center>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="5600" name="Meteor Shower" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3052" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5604" name="Elysian" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3059" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5606" name="Branch of the Mother Tree" add_name="Magic Damage">
+		<triggers>
+			<trigger id="3049" level="2" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="30"/>
+		</triggers>
+	</weapon>
+	<weapon id="5609" name="Carnage Bow" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3053" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5613" name="Soul Bow" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3062" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5616" name="Bloody Orchid" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3054" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5627" name="Halberd" add_name="Critical Stun">
+		<triggers>
+			<trigger id="3070" level="4" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5635" name="Tallum Blade" add_name="Critical Poison">
+		<triggers>
+			<trigger id="3061" level="1" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5639" name="Elemental Sword" add_name="Magic Paralyze">
+		<triggers>
+			<trigger id="3075" level="1" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="5"/>
+		</triggers>
+	</weapon>
+	<weapon id="5642" name="Sword of Miracles" add_name="Magic Silence">
+		<triggers>
+			<trigger id="3074" level="2" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+	</weapon>
+	<weapon id="5645" name="Dragon Slayer" add_name="Critical Bleed">
+		<triggers>
+			<trigger id="3055" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+	<weapon id="5646" name="Dragon Slayer" add_name="Critical Drain">
+		<triggers>
+			<trigger id="3060" level="2" type="CRIT" chance="100"/>
+		</triggers>
+	</weapon>
+</list>
